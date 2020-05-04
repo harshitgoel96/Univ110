@@ -1,0 +1,4102 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 900  1400 0    50   Input ~ 0
+row0
+Text GLabel 1800 650  0    50   Input ~ 0
+col0
+Text GLabel 2800 650  0    50   Input ~ 0
+col1
+Wire Wire Line
+	2800 650  2800 1000
+$Comp
+L keyboard_parts:KEYSW K_ESC1
+U 1 1 00000001
+P 2500 1000
+F 0 "K_ESC1" H 2500 1233 60  0000 C CNN
+F 1 "KEYSW" H 2500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 2500 1000 60  0001 C CNN
+F 3 "" H 2500 1000 60  0000 C CNN
+	1    2500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ESC1
+U 1 1 00000000
+P 2150 1250
+F 0 "D_ESC1" V 2196 1171 50  0000 R CNN
+F 1 "D" V 2095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 2150 1250 50  0001 C CNN
+F 3 "~" H 2150 1250 50  0001 C CNN
+	1    2150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 1000 2150 1000
+Wire Wire Line
+	2150 1000 2150 1100
+Connection ~ 2800 1000
+Connection ~ 2150 1400
+Text GLabel 3800 650  0    50   Input ~ 0
+col2
+Text GLabel 4800 650  0    50   Input ~ 0
+col3
+Wire Wire Line
+	4800 650  4800 1000
+$Comp
+L keyboard_parts:KEYSW K_F1
+U 1 1 00000011
+P 4500 1000
+F 0 "K_F1" H 4500 1233 60  0000 C CNN
+F 1 "KEYSW" H 4500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 4500 1000 60  0001 C CNN
+F 3 "" H 4500 1000 60  0000 C CNN
+	1    4500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F1
+U 1 1 00000010
+P 4150 1250
+F 0 "D_F1" V 4196 1171 50  0000 R CNN
+F 1 "D" V 4095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 4150 1250 50  0001 C CNN
+F 3 "~" H 4150 1250 50  0001 C CNN
+	1    4150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 1000 4150 1000
+Wire Wire Line
+	4150 1000 4150 1100
+Connection ~ 4800 1000
+Connection ~ 4150 1400
+Text GLabel 5800 650  0    50   Input ~ 0
+col4
+Wire Wire Line
+	5800 650  5800 1000
+$Comp
+L keyboard_parts:KEYSW K_F2
+U 1 1 00000021
+P 5500 1000
+F 0 "K_F2" H 5500 1233 60  0000 C CNN
+F 1 "KEYSW" H 5500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 5500 1000 60  0001 C CNN
+F 3 "" H 5500 1000 60  0000 C CNN
+	1    5500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F2
+U 1 1 00000020
+P 5150 1250
+F 0 "D_F2" V 5196 1171 50  0000 R CNN
+F 1 "D" V 5095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5150 1250 50  0001 C CNN
+F 3 "~" H 5150 1250 50  0001 C CNN
+	1    5150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 1000 5150 1000
+Wire Wire Line
+	5150 1000 5150 1100
+Connection ~ 5800 1000
+Connection ~ 5150 1400
+Text GLabel 6800 650  0    50   Input ~ 0
+col5
+Wire Wire Line
+	6800 650  6800 1000
+$Comp
+L keyboard_parts:KEYSW K_F3
+U 1 1 00000031
+P 6500 1000
+F 0 "K_F3" H 6500 1233 60  0000 C CNN
+F 1 "KEYSW" H 6500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 6500 1000 60  0001 C CNN
+F 3 "" H 6500 1000 60  0000 C CNN
+	1    6500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F3
+U 1 1 00000030
+P 6150 1250
+F 0 "D_F3" V 6196 1171 50  0000 R CNN
+F 1 "D" V 6095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 6150 1250 50  0001 C CNN
+F 3 "~" H 6150 1250 50  0001 C CNN
+	1    6150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 1000 6150 1000
+Wire Wire Line
+	6150 1000 6150 1100
+Connection ~ 6800 1000
+Connection ~ 6150 1400
+Text GLabel 7800 650  0    50   Input ~ 0
+col6
+Wire Wire Line
+	7800 650  7800 1000
+$Comp
+L keyboard_parts:KEYSW K_F4
+U 1 1 00000041
+P 7500 1000
+F 0 "K_F4" H 7500 1233 60  0000 C CNN
+F 1 "KEYSW" H 7500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 7500 1000 60  0001 C CNN
+F 3 "" H 7500 1000 60  0000 C CNN
+	1    7500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F4
+U 1 1 00000040
+P 7150 1250
+F 0 "D_F4" V 7196 1171 50  0000 R CNN
+F 1 "D" V 7095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7150 1250 50  0001 C CNN
+F 3 "~" H 7150 1250 50  0001 C CNN
+	1    7150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 1000 7150 1000
+Wire Wire Line
+	7150 1000 7150 1100
+Connection ~ 7800 1000
+Connection ~ 7150 1400
+Text GLabel 8800 650  0    50   Input ~ 0
+col7
+Text GLabel 9800 650  0    50   Input ~ 0
+col8
+Wire Wire Line
+	9800 650  9800 1000
+$Comp
+L keyboard_parts:KEYSW K_F5
+U 1 1 00000051
+P 9500 1000
+F 0 "K_F5" H 9500 1233 60  0000 C CNN
+F 1 "KEYSW" H 9500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 9500 1000 60  0001 C CNN
+F 3 "" H 9500 1000 60  0000 C CNN
+	1    9500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F5
+U 1 1 00000050
+P 9150 1250
+F 0 "D_F5" V 9196 1171 50  0000 R CNN
+F 1 "D" V 9095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9150 1250 50  0001 C CNN
+F 3 "~" H 9150 1250 50  0001 C CNN
+	1    9150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 1000 9150 1000
+Wire Wire Line
+	9150 1000 9150 1100
+Connection ~ 9800 1000
+Connection ~ 9150 1400
+Text GLabel 10800 650  0    50   Input ~ 0
+col9
+Wire Wire Line
+	10800 650  10800 1000
+$Comp
+L keyboard_parts:KEYSW K_F6
+U 1 1 00000061
+P 10500 1000
+F 0 "K_F6" H 10500 1233 60  0000 C CNN
+F 1 "KEYSW" H 10500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 10500 1000 60  0001 C CNN
+F 3 "" H 10500 1000 60  0000 C CNN
+	1    10500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F6
+U 1 1 00000060
+P 10150 1250
+F 0 "D_F6" V 10196 1171 50  0000 R CNN
+F 1 "D" V 10095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 10150 1250 50  0001 C CNN
+F 3 "~" H 10150 1250 50  0001 C CNN
+	1    10150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 1000 10150 1000
+Wire Wire Line
+	10150 1000 10150 1100
+Connection ~ 10800 1000
+Connection ~ 10150 1400
+Text GLabel 11800 650  0    50   Input ~ 0
+col10
+Wire Wire Line
+	11800 650  11800 1000
+$Comp
+L keyboard_parts:KEYSW K_F7
+U 1 1 00000071
+P 11500 1000
+F 0 "K_F7" H 11500 1233 60  0000 C CNN
+F 1 "KEYSW" H 11500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 11500 1000 60  0001 C CNN
+F 3 "" H 11500 1000 60  0000 C CNN
+	1    11500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F7
+U 1 1 00000070
+P 11150 1250
+F 0 "D_F7" V 11196 1171 50  0000 R CNN
+F 1 "D" V 11095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 11150 1250 50  0001 C CNN
+F 3 "~" H 11150 1250 50  0001 C CNN
+	1    11150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11200 1000 11150 1000
+Wire Wire Line
+	11150 1000 11150 1100
+Connection ~ 11800 1000
+Connection ~ 11150 1400
+Text GLabel 12800 650  0    50   Input ~ 0
+col11
+Wire Wire Line
+	12800 650  12800 1000
+$Comp
+L keyboard_parts:KEYSW K_F8
+U 1 1 00000081
+P 12500 1000
+F 0 "K_F8" H 12500 1233 60  0000 C CNN
+F 1 "KEYSW" H 12500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 12500 1000 60  0001 C CNN
+F 3 "" H 12500 1000 60  0000 C CNN
+	1    12500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F8
+U 1 1 00000080
+P 12150 1250
+F 0 "D_F8" V 12196 1171 50  0000 R CNN
+F 1 "D" V 12095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12150 1250 50  0001 C CNN
+F 3 "~" H 12150 1250 50  0001 C CNN
+	1    12150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12200 1000 12150 1000
+Wire Wire Line
+	12150 1000 12150 1100
+Connection ~ 12800 1000
+Connection ~ 12150 1400
+Text GLabel 13800 650  0    50   Input ~ 0
+col12
+Wire Wire Line
+	13800 650  13800 1000
+$Comp
+L keyboard_parts:KEYSW K_F9
+U 1 1 00000091
+P 13500 1000
+F 0 "K_F9" H 13500 1233 60  0000 C CNN
+F 1 "KEYSW" H 13500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 13500 1000 60  0001 C CNN
+F 3 "" H 13500 1000 60  0000 C CNN
+	1    13500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F9
+U 1 1 00000090
+P 13150 1250
+F 0 "D_F9" V 13196 1171 50  0000 R CNN
+F 1 "D" V 13095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 13150 1250 50  0001 C CNN
+F 3 "~" H 13150 1250 50  0001 C CNN
+	1    13150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13200 1000 13150 1000
+Wire Wire Line
+	13150 1000 13150 1100
+Connection ~ 13800 1000
+Connection ~ 13150 1400
+Text GLabel 14800 650  0    50   Input ~ 0
+col13
+Wire Wire Line
+	14800 650  14800 1000
+$Comp
+L keyboard_parts:KEYSW K_F10
+U 1 1 000000A1
+P 14500 1000
+F 0 "K_F10" H 14500 1233 60  0000 C CNN
+F 1 "KEYSW" H 14500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 14500 1000 60  0001 C CNN
+F 3 "" H 14500 1000 60  0000 C CNN
+	1    14500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F10
+U 1 1 000000A0
+P 14150 1250
+F 0 "D_F10" V 14196 1171 50  0000 R CNN
+F 1 "D" V 14095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 14150 1250 50  0001 C CNN
+F 3 "~" H 14150 1250 50  0001 C CNN
+	1    14150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14200 1000 14150 1000
+Wire Wire Line
+	14150 1000 14150 1100
+Connection ~ 14800 1000
+Connection ~ 14150 1400
+Text GLabel 15800 650  0    50   Input ~ 0
+col14
+Wire Wire Line
+	15800 650  15800 1000
+$Comp
+L keyboard_parts:KEYSW K_F11
+U 1 1 000000B1
+P 15500 1000
+F 0 "K_F11" H 15500 1233 60  0000 C CNN
+F 1 "KEYSW" H 15500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 15500 1000 60  0001 C CNN
+F 3 "" H 15500 1000 60  0000 C CNN
+	1    15500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F11
+U 1 1 000000B0
+P 15150 1250
+F 0 "D_F11" V 15196 1171 50  0000 R CNN
+F 1 "D" V 15095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 15150 1250 50  0001 C CNN
+F 3 "~" H 15150 1250 50  0001 C CNN
+	1    15150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15200 1000 15150 1000
+Wire Wire Line
+	15150 1000 15150 1100
+Connection ~ 15800 1000
+Connection ~ 15150 1400
+Text GLabel 16800 650  0    50   Input ~ 0
+col15
+Wire Wire Line
+	16800 650  16800 1000
+$Comp
+L keyboard_parts:KEYSW K_F12
+U 1 1 000000C1
+P 16500 1000
+F 0 "K_F12" H 16500 1233 60  0000 C CNN
+F 1 "KEYSW" H 16500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 16500 1000 60  0001 C CNN
+F 3 "" H 16500 1000 60  0000 C CNN
+	1    16500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F12
+U 1 1 000000C0
+P 16150 1250
+F 0 "D_F12" V 16196 1171 50  0000 R CNN
+F 1 "D" V 16095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 16150 1250 50  0001 C CNN
+F 3 "~" H 16150 1250 50  0001 C CNN
+	1    16150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16200 1000 16150 1000
+Wire Wire Line
+	16150 1000 16150 1100
+Connection ~ 16800 1000
+Connection ~ 16150 1400
+Text GLabel 17800 650  0    50   Input ~ 0
+col16
+Text GLabel 18800 650  0    50   Input ~ 0
+col17
+Wire Wire Line
+	18800 650  18800 1000
+$Comp
+L keyboard_parts:KEYSW K_PRTSC1
+U 1 1 000000D1
+P 18500 1000
+F 0 "K_PRTSC1" H 18500 1233 60  0000 C CNN
+F 1 "KEYSW" H 18500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 18500 1000 60  0001 C CNN
+F 3 "" H 18500 1000 60  0000 C CNN
+	1    18500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_PRTSC1
+U 1 1 000000D0
+P 18150 1250
+F 0 "D_PRTSC1" V 18196 1171 50  0000 R CNN
+F 1 "D" V 18095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 18150 1250 50  0001 C CNN
+F 3 "~" H 18150 1250 50  0001 C CNN
+	1    18150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18200 1000 18150 1000
+Wire Wire Line
+	18150 1000 18150 1100
+Connection ~ 18800 1000
+Connection ~ 18150 1400
+Text GLabel 19800 650  0    50   Input ~ 0
+col18
+Wire Wire Line
+	19800 650  19800 1000
+$Comp
+L keyboard_parts:KEYSW K_SCROLL1
+U 1 1 000000E1
+P 19500 1000
+F 0 "K_SCROLL1" H 19500 1233 60  0000 C CNN
+F 1 "KEYSW" H 19500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 19500 1000 60  0001 C CNN
+F 3 "" H 19500 1000 60  0000 C CNN
+	1    19500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SCROLL1
+U 1 1 000000E0
+P 19150 1250
+F 0 "D_SCROLL1" V 19196 1171 50  0000 R CNN
+F 1 "D" V 19095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 19150 1250 50  0001 C CNN
+F 3 "~" H 19150 1250 50  0001 C CNN
+	1    19150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19200 1000 19150 1000
+Wire Wire Line
+	19150 1000 19150 1100
+Connection ~ 19800 1000
+Connection ~ 19150 1400
+Text GLabel 20800 650  0    50   Input ~ 0
+col19
+Wire Wire Line
+	20800 650  20800 1000
+$Comp
+L keyboard_parts:KEYSW K_BREAK1
+U 1 1 000000F1
+P 20500 1000
+F 0 "K_BREAK1" H 20500 1233 60  0000 C CNN
+F 1 "KEYSW" H 20500 900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 20500 1000 60  0001 C CNN
+F 3 "" H 20500 1000 60  0000 C CNN
+	1    20500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_BREAK1
+U 1 1 000000F0
+P 20150 1250
+F 0 "D_BREAK1" V 20196 1171 50  0000 R CNN
+F 1 "D" V 20095 1171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 20150 1250 50  0001 C CNN
+F 3 "~" H 20150 1250 50  0001 C CNN
+	1    20150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20200 1000 20150 1000
+Wire Wire Line
+	20150 1000 20150 1100
+Connection ~ 20800 1000
+Text GLabel 21800 650  0    50   Input ~ 0
+col20
+Text GLabel 22800 650  0    50   Input ~ 0
+col21
+Text GLabel 23800 650  0    50   Input ~ 0
+col22
+Text GLabel 24800 650  0    50   Input ~ 0
+col23
+Text GLabel 900  2400 0    50   Input ~ 0
+row1
+Text GLabel 900  3400 0    50   Input ~ 0
+row2
+Wire Wire Line
+	900  3400 1150 3400
+$Comp
+L keyboard_parts:KEYSW K_M1
+U 1 1 00000101
+P 1500 3000
+F 0 "K_M1" H 1500 3233 60  0000 C CNN
+F 1 "KEYSW" H 1500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 1500 3000 60  0001 C CNN
+F 3 "" H 1500 3000 60  0000 C CNN
+	1    1500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_M1
+U 1 1 00000100
+P 1150 3250
+F 0 "D_M1" V 1196 3171 50  0000 R CNN
+F 1 "D" V 1095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1150 3250 50  0001 C CNN
+F 3 "~" H 1150 3250 50  0001 C CNN
+	1    1150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 3000 1150 3000
+Wire Wire Line
+	1150 3000 1150 3100
+Connection ~ 1800 3000
+Connection ~ 1150 3400
+$Comp
+L keyboard_parts:KEYSW K_`1
+U 1 1 00000111
+P 2500 3000
+F 0 "K_`1" H 2500 3233 60  0000 C CNN
+F 1 "KEYSW" H 2500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 2500 3000 60  0001 C CNN
+F 3 "" H 2500 3000 60  0000 C CNN
+	1    2500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_`1
+U 1 1 00000110
+P 2150 3250
+F 0 "D_`1" V 2196 3171 50  0000 R CNN
+F 1 "D" V 2095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 2150 3250 50  0001 C CNN
+F 3 "~" H 2150 3250 50  0001 C CNN
+	1    2150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 3000 2150 3000
+Wire Wire Line
+	2150 3000 2150 3100
+Connection ~ 2800 3000
+Connection ~ 2150 3400
+$Comp
+L keyboard_parts:KEYSW K_1
+U 1 1 00000121
+P 3500 3000
+F 0 "K_1" H 3500 3233 60  0000 C CNN
+F 1 "KEYSW" H 3500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 3500 3000 60  0001 C CNN
+F 3 "" H 3500 3000 60  0000 C CNN
+	1    3500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_1
+U 1 1 00000120
+P 3150 3250
+F 0 "D_1" V 3196 3171 50  0000 R CNN
+F 1 "D" V 3095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3150 3250 50  0001 C CNN
+F 3 "~" H 3150 3250 50  0001 C CNN
+	1    3150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 3000 3150 3000
+Wire Wire Line
+	3150 3000 3150 3100
+Connection ~ 3800 3000
+Connection ~ 3150 3400
+$Comp
+L keyboard_parts:KEYSW K_2
+U 1 1 00000131
+P 4500 3000
+F 0 "K_2" H 4500 3233 60  0000 C CNN
+F 1 "KEYSW" H 4500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 4500 3000 60  0001 C CNN
+F 3 "" H 4500 3000 60  0000 C CNN
+	1    4500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_2
+U 1 1 00000130
+P 4150 3250
+F 0 "D_2" V 4196 3171 50  0000 R CNN
+F 1 "D" V 4095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 4150 3250 50  0001 C CNN
+F 3 "~" H 4150 3250 50  0001 C CNN
+	1    4150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 3000 4150 3000
+Wire Wire Line
+	4150 3000 4150 3100
+Connection ~ 4800 3000
+Connection ~ 4150 3400
+$Comp
+L keyboard_parts:KEYSW K_3
+U 1 1 00000141
+P 5500 3000
+F 0 "K_3" H 5500 3233 60  0000 C CNN
+F 1 "KEYSW" H 5500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 5500 3000 60  0001 C CNN
+F 3 "" H 5500 3000 60  0000 C CNN
+	1    5500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_3
+U 1 1 00000140
+P 5150 3250
+F 0 "D_3" V 5196 3171 50  0000 R CNN
+F 1 "D" V 5095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5150 3250 50  0001 C CNN
+F 3 "~" H 5150 3250 50  0001 C CNN
+	1    5150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 3000 5150 3000
+Wire Wire Line
+	5150 3000 5150 3100
+Connection ~ 5800 3000
+Connection ~ 5150 3400
+$Comp
+L keyboard_parts:KEYSW K_4
+U 1 1 00000151
+P 6500 3000
+F 0 "K_4" H 6500 3233 60  0000 C CNN
+F 1 "KEYSW" H 6500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 6500 3000 60  0001 C CNN
+F 3 "" H 6500 3000 60  0000 C CNN
+	1    6500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_4
+U 1 1 00000150
+P 6150 3250
+F 0 "D_4" V 6196 3171 50  0000 R CNN
+F 1 "D" V 6095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 6150 3250 50  0001 C CNN
+F 3 "~" H 6150 3250 50  0001 C CNN
+	1    6150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 3000 6150 3000
+Wire Wire Line
+	6150 3000 6150 3100
+Connection ~ 6800 3000
+Connection ~ 6150 3400
+$Comp
+L keyboard_parts:KEYSW K_5
+U 1 1 00000161
+P 7500 3000
+F 0 "K_5" H 7500 3233 60  0000 C CNN
+F 1 "KEYSW" H 7500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 7500 3000 60  0001 C CNN
+F 3 "" H 7500 3000 60  0000 C CNN
+	1    7500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_5
+U 1 1 00000160
+P 7150 3250
+F 0 "D_5" V 7196 3171 50  0000 R CNN
+F 1 "D" V 7095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7150 3250 50  0001 C CNN
+F 3 "~" H 7150 3250 50  0001 C CNN
+	1    7150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 3000 7150 3000
+Wire Wire Line
+	7150 3000 7150 3100
+Connection ~ 7800 3000
+Connection ~ 7150 3400
+$Comp
+L keyboard_parts:KEYSW K_6
+U 1 1 00000171
+P 8500 3000
+F 0 "K_6" H 8500 3233 60  0000 C CNN
+F 1 "KEYSW" H 8500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 8500 3000 60  0001 C CNN
+F 3 "" H 8500 3000 60  0000 C CNN
+	1    8500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_6
+U 1 1 00000170
+P 8150 3250
+F 0 "D_6" V 8196 3171 50  0000 R CNN
+F 1 "D" V 8095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 8150 3250 50  0001 C CNN
+F 3 "~" H 8150 3250 50  0001 C CNN
+	1    8150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 3000 8150 3000
+Wire Wire Line
+	8150 3000 8150 3100
+Connection ~ 8800 3000
+Connection ~ 8150 3400
+$Comp
+L keyboard_parts:KEYSW K_7
+U 1 1 00000181
+P 9500 3000
+F 0 "K_7" H 9500 3233 60  0000 C CNN
+F 1 "KEYSW" H 9500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 9500 3000 60  0001 C CNN
+F 3 "" H 9500 3000 60  0000 C CNN
+	1    9500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_7
+U 1 1 00000180
+P 9150 3250
+F 0 "D_7" V 9196 3171 50  0000 R CNN
+F 1 "D" V 9095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9150 3250 50  0001 C CNN
+F 3 "~" H 9150 3250 50  0001 C CNN
+	1    9150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 3000 9150 3000
+Wire Wire Line
+	9150 3000 9150 3100
+Connection ~ 9800 3000
+Connection ~ 9150 3400
+$Comp
+L keyboard_parts:KEYSW K_8
+U 1 1 00000191
+P 10500 3000
+F 0 "K_8" H 10500 3233 60  0000 C CNN
+F 1 "KEYSW" H 10500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 10500 3000 60  0001 C CNN
+F 3 "" H 10500 3000 60  0000 C CNN
+	1    10500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_8
+U 1 1 00000190
+P 10150 3250
+F 0 "D_8" V 10196 3171 50  0000 R CNN
+F 1 "D" V 10095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 10150 3250 50  0001 C CNN
+F 3 "~" H 10150 3250 50  0001 C CNN
+	1    10150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 3000 10150 3000
+Wire Wire Line
+	10150 3000 10150 3100
+Connection ~ 10800 3000
+Connection ~ 10150 3400
+$Comp
+L keyboard_parts:KEYSW K_9
+U 1 1 000001A1
+P 11500 3000
+F 0 "K_9" H 11500 3233 60  0000 C CNN
+F 1 "KEYSW" H 11500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 11500 3000 60  0001 C CNN
+F 3 "" H 11500 3000 60  0000 C CNN
+	1    11500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_9
+U 1 1 000001A0
+P 11150 3250
+F 0 "D_9" V 11196 3171 50  0000 R CNN
+F 1 "D" V 11095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 11150 3250 50  0001 C CNN
+F 3 "~" H 11150 3250 50  0001 C CNN
+	1    11150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11200 3000 11150 3000
+Wire Wire Line
+	11150 3000 11150 3100
+Connection ~ 11800 3000
+Connection ~ 11150 3400
+$Comp
+L keyboard_parts:KEYSW K_0
+U 1 1 000001B1
+P 12500 3000
+F 0 "K_0" H 12500 3233 60  0000 C CNN
+F 1 "KEYSW" H 12500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 12500 3000 60  0001 C CNN
+F 3 "" H 12500 3000 60  0000 C CNN
+	1    12500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_0
+U 1 1 000001B0
+P 12150 3250
+F 0 "D_0" V 12196 3171 50  0000 R CNN
+F 1 "D" V 12095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12150 3250 50  0001 C CNN
+F 3 "~" H 12150 3250 50  0001 C CNN
+	1    12150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12200 3000 12150 3000
+Wire Wire Line
+	12150 3000 12150 3100
+Connection ~ 12800 3000
+Connection ~ 12150 3400
+$Comp
+L keyboard_parts:KEYSW K_MINUS2
+U 1 1 000001C1
+P 13500 3000
+F 0 "K_MINUS2" H 13500 3233 60  0000 C CNN
+F 1 "KEYSW" H 13500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 13500 3000 60  0001 C CNN
+F 3 "" H 13500 3000 60  0000 C CNN
+	1    13500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_MINUS2
+U 1 1 000001C0
+P 13150 3250
+F 0 "D_MINUS2" V 13196 3171 50  0000 R CNN
+F 1 "D" V 13095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 13150 3250 50  0001 C CNN
+F 3 "~" H 13150 3250 50  0001 C CNN
+	1    13150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13200 3000 13150 3000
+Wire Wire Line
+	13150 3000 13150 3100
+Connection ~ 13800 3000
+Connection ~ 13150 3400
+$Comp
+L keyboard_parts:KEYSW K_EQUAL1
+U 1 1 000001D1
+P 14500 3000
+F 0 "K_EQUAL1" H 14500 3233 60  0000 C CNN
+F 1 "KEYSW" H 14500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 14500 3000 60  0001 C CNN
+F 3 "" H 14500 3000 60  0000 C CNN
+	1    14500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_EQUAL1
+U 1 1 000001D0
+P 14150 3250
+F 0 "D_EQUAL1" V 14196 3171 50  0000 R CNN
+F 1 "D" V 14095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 14150 3250 50  0001 C CNN
+F 3 "~" H 14150 3250 50  0001 C CNN
+	1    14150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14200 3000 14150 3000
+Wire Wire Line
+	14150 3000 14150 3100
+Connection ~ 14800 3000
+Connection ~ 14150 3400
+$Comp
+L keyboard_parts:KEYSW K_BACKSPACE1
+U 1 1 000001E1
+P 16500 3000
+F 0 "K_BACKSPACE1" H 16500 3233 60  0000 C CNN
+F 1 "KEYSW" H 16500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP-2U-FLIP" H 16500 3000 60  0001 C CNN
+F 3 "" H 16500 3000 60  0000 C CNN
+	1    16500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_BACKSPACE1
+U 1 1 000001E0
+P 16150 3250
+F 0 "D_BACKSPACE1" V 16196 3171 50  0000 R CNN
+F 1 "D" V 16095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 16150 3250 50  0001 C CNN
+F 3 "~" H 16150 3250 50  0001 C CNN
+	1    16150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16200 3000 16150 3000
+Wire Wire Line
+	16150 3000 16150 3100
+Connection ~ 16800 3000
+Connection ~ 16150 3400
+$Comp
+L keyboard_parts:KEYSW K_INSERT1
+U 1 1 000001F1
+P 18500 3000
+F 0 "K_INSERT1" H 18500 3233 60  0000 C CNN
+F 1 "KEYSW" H 18500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 18500 3000 60  0001 C CNN
+F 3 "" H 18500 3000 60  0000 C CNN
+	1    18500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_INSERT1
+U 1 1 000001F0
+P 18150 3250
+F 0 "D_INSERT1" V 18196 3171 50  0000 R CNN
+F 1 "D" V 18095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 18150 3250 50  0001 C CNN
+F 3 "~" H 18150 3250 50  0001 C CNN
+	1    18150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18200 3000 18150 3000
+Wire Wire Line
+	18150 3000 18150 3100
+Connection ~ 18800 3000
+Connection ~ 18150 3400
+$Comp
+L keyboard_parts:KEYSW K_HOME2
+U 1 1 00000201
+P 19500 3000
+F 0 "K_HOME2" H 19500 3233 60  0000 C CNN
+F 1 "KEYSW" H 19500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 19500 3000 60  0001 C CNN
+F 3 "" H 19500 3000 60  0000 C CNN
+	1    19500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_HOME2
+U 1 1 00000200
+P 19150 3250
+F 0 "D_HOME2" V 19196 3171 50  0000 R CNN
+F 1 "D" V 19095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 19150 3250 50  0001 C CNN
+F 3 "~" H 19150 3250 50  0001 C CNN
+	1    19150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19200 3000 19150 3000
+Wire Wire Line
+	19150 3000 19150 3100
+Connection ~ 19800 3000
+Connection ~ 19150 3400
+$Comp
+L keyboard_parts:KEYSW K_PGUP2
+U 1 1 00000211
+P 20500 3000
+F 0 "K_PGUP2" H 20500 3233 60  0000 C CNN
+F 1 "KEYSW" H 20500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 20500 3000 60  0001 C CNN
+F 3 "" H 20500 3000 60  0000 C CNN
+	1    20500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_PGUP2
+U 1 1 00000210
+P 20150 3250
+F 0 "D_PGUP2" V 20196 3171 50  0000 R CNN
+F 1 "D" V 20095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 20150 3250 50  0001 C CNN
+F 3 "~" H 20150 3250 50  0001 C CNN
+	1    20150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20200 3000 20150 3000
+Wire Wire Line
+	20150 3000 20150 3100
+Connection ~ 20800 3000
+Connection ~ 20150 3400
+$Comp
+L keyboard_parts:KEYSW K_NUM1
+U 1 1 00000221
+P 21500 3000
+F 0 "K_NUM1" H 21500 3233 60  0000 C CNN
+F 1 "KEYSW" H 21500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 21500 3000 60  0001 C CNN
+F 3 "" H 21500 3000 60  0000 C CNN
+	1    21500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_NUM1
+U 1 1 00000220
+P 21150 3250
+F 0 "D_NUM1" V 21196 3171 50  0000 R CNN
+F 1 "D" V 21095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 21150 3250 50  0001 C CNN
+F 3 "~" H 21150 3250 50  0001 C CNN
+	1    21150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21200 3000 21150 3000
+Wire Wire Line
+	21150 3000 21150 3100
+Connection ~ 21800 3000
+Connection ~ 21150 3400
+$Comp
+L keyboard_parts:KEYSW K_SLASH2
+U 1 1 00000231
+P 22500 3000
+F 0 "K_SLASH2" H 22500 3233 60  0000 C CNN
+F 1 "KEYSW" H 22500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 22500 3000 60  0001 C CNN
+F 3 "" H 22500 3000 60  0000 C CNN
+	1    22500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SLASH2
+U 1 1 00000230
+P 22150 3250
+F 0 "D_SLASH2" V 22196 3171 50  0000 R CNN
+F 1 "D" V 22095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 22150 3250 50  0001 C CNN
+F 3 "~" H 22150 3250 50  0001 C CNN
+	1    22150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22200 3000 22150 3000
+Wire Wire Line
+	22150 3000 22150 3100
+Connection ~ 22800 3000
+Connection ~ 22150 3400
+$Comp
+L keyboard_parts:KEYSW K_ASTRK1
+U 1 1 00000241
+P 23500 3000
+F 0 "K_ASTRK1" H 23500 3233 60  0000 C CNN
+F 1 "KEYSW" H 23500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 23500 3000 60  0001 C CNN
+F 3 "" H 23500 3000 60  0000 C CNN
+	1    23500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ASTRK1
+U 1 1 00000240
+P 23150 3250
+F 0 "D_ASTRK1" V 23196 3171 50  0000 R CNN
+F 1 "D" V 23095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 23150 3250 50  0001 C CNN
+F 3 "~" H 23150 3250 50  0001 C CNN
+	1    23150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23200 3000 23150 3000
+Wire Wire Line
+	23150 3000 23150 3100
+Connection ~ 23800 3000
+Connection ~ 23150 3400
+$Comp
+L keyboard_parts:KEYSW K_MINUS1
+U 1 1 00000251
+P 24500 3000
+F 0 "K_MINUS1" H 24500 3233 60  0000 C CNN
+F 1 "KEYSW" H 24500 2900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 24500 3000 60  0001 C CNN
+F 3 "" H 24500 3000 60  0000 C CNN
+	1    24500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_MINUS1
+U 1 1 00000250
+P 24150 3250
+F 0 "D_MINUS1" V 24196 3171 50  0000 R CNN
+F 1 "D" V 24095 3171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 24150 3250 50  0001 C CNN
+F 3 "~" H 24150 3250 50  0001 C CNN
+	1    24150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24200 3000 24150 3000
+Wire Wire Line
+	24150 3000 24150 3100
+Connection ~ 24800 3000
+Wire Wire Line
+	1150 3400 2150 3400
+Text GLabel 900  4400 0    50   Input ~ 0
+row3
+Wire Wire Line
+	900  4400 1150 4400
+$Comp
+L keyboard_parts:KEYSW K_M2
+U 1 1 00000261
+P 1500 4000
+F 0 "K_M2" H 1500 4233 60  0000 C CNN
+F 1 "KEYSW" H 1500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 1500 4000 60  0001 C CNN
+F 3 "" H 1500 4000 60  0000 C CNN
+	1    1500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_M2
+U 1 1 00000260
+P 1150 4250
+F 0 "D_M2" V 1196 4171 50  0000 R CNN
+F 1 "D" V 1095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1150 4250 50  0001 C CNN
+F 3 "~" H 1150 4250 50  0001 C CNN
+	1    1150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 4000 1150 4000
+Wire Wire Line
+	1150 4000 1150 4100
+Connection ~ 1800 4000
+Connection ~ 1150 4400
+$Comp
+L keyboard_parts:KEYSW K_TAB1
+U 1 1 00000271
+P 3500 4000
+F 0 "K_TAB1" H 3500 4233 60  0000 C CNN
+F 1 "KEYSW" H 3500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 3500 4000 60  0001 C CNN
+F 3 "" H 3500 4000 60  0000 C CNN
+	1    3500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_TAB1
+U 1 1 00000270
+P 3150 4250
+F 0 "D_TAB1" V 3196 4171 50  0000 R CNN
+F 1 "D" V 3095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3150 4250 50  0001 C CNN
+F 3 "~" H 3150 4250 50  0001 C CNN
+	1    3150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 4000 3150 4000
+Wire Wire Line
+	3150 4000 3150 4100
+Connection ~ 3800 4000
+Connection ~ 3150 4400
+$Comp
+L keyboard_parts:KEYSW K_Q1
+U 1 1 00000281
+P 4500 4000
+F 0 "K_Q1" H 4500 4233 60  0000 C CNN
+F 1 "KEYSW" H 4500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 4500 4000 60  0001 C CNN
+F 3 "" H 4500 4000 60  0000 C CNN
+	1    4500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_Q1
+U 1 1 00000280
+P 4150 4250
+F 0 "D_Q1" V 4196 4171 50  0000 R CNN
+F 1 "D" V 4095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 4150 4250 50  0001 C CNN
+F 3 "~" H 4150 4250 50  0001 C CNN
+	1    4150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 4000 4150 4000
+Wire Wire Line
+	4150 4000 4150 4100
+Connection ~ 4800 4000
+Connection ~ 4150 4400
+$Comp
+L keyboard_parts:KEYSW K_W1
+U 1 1 00000291
+P 5500 4000
+F 0 "K_W1" H 5500 4233 60  0000 C CNN
+F 1 "KEYSW" H 5500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 5500 4000 60  0001 C CNN
+F 3 "" H 5500 4000 60  0000 C CNN
+	1    5500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_W1
+U 1 1 00000290
+P 5150 4250
+F 0 "D_W1" V 5196 4171 50  0000 R CNN
+F 1 "D" V 5095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5150 4250 50  0001 C CNN
+F 3 "~" H 5150 4250 50  0001 C CNN
+	1    5150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 4000 5150 4000
+Wire Wire Line
+	5150 4000 5150 4100
+Connection ~ 5800 4000
+Connection ~ 5150 4400
+$Comp
+L keyboard_parts:KEYSW K_E1
+U 1 1 000002A1
+P 6500 4000
+F 0 "K_E1" H 6500 4233 60  0000 C CNN
+F 1 "KEYSW" H 6500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 6500 4000 60  0001 C CNN
+F 3 "" H 6500 4000 60  0000 C CNN
+	1    6500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_E1
+U 1 1 000002A0
+P 6150 4250
+F 0 "D_E1" V 6196 4171 50  0000 R CNN
+F 1 "D" V 6095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 6150 4250 50  0001 C CNN
+F 3 "~" H 6150 4250 50  0001 C CNN
+	1    6150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 4000 6150 4000
+Wire Wire Line
+	6150 4000 6150 4100
+Connection ~ 6800 4000
+Connection ~ 6150 4400
+$Comp
+L keyboard_parts:KEYSW K_R1
+U 1 1 000002B1
+P 7500 4000
+F 0 "K_R1" H 7500 4233 60  0000 C CNN
+F 1 "KEYSW" H 7500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 7500 4000 60  0001 C CNN
+F 3 "" H 7500 4000 60  0000 C CNN
+	1    7500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_R1
+U 1 1 000002B0
+P 7150 4250
+F 0 "D_R1" V 7196 4171 50  0000 R CNN
+F 1 "D" V 7095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7150 4250 50  0001 C CNN
+F 3 "~" H 7150 4250 50  0001 C CNN
+	1    7150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 4000 7150 4000
+Wire Wire Line
+	7150 4000 7150 4100
+Connection ~ 7800 4000
+Connection ~ 7150 4400
+$Comp
+L keyboard_parts:KEYSW K_T1
+U 1 1 000002C1
+P 8500 4000
+F 0 "K_T1" H 8500 4233 60  0000 C CNN
+F 1 "KEYSW" H 8500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 8500 4000 60  0001 C CNN
+F 3 "" H 8500 4000 60  0000 C CNN
+	1    8500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_T1
+U 1 1 000002C0
+P 8150 4250
+F 0 "D_T1" V 8196 4171 50  0000 R CNN
+F 1 "D" V 8095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 8150 4250 50  0001 C CNN
+F 3 "~" H 8150 4250 50  0001 C CNN
+	1    8150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 4000 8150 4000
+Wire Wire Line
+	8150 4000 8150 4100
+Connection ~ 8800 4000
+Connection ~ 8150 4400
+$Comp
+L keyboard_parts:KEYSW K_Y1
+U 1 1 000002D1
+P 9500 4000
+F 0 "K_Y1" H 9500 4233 60  0000 C CNN
+F 1 "KEYSW" H 9500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 9500 4000 60  0001 C CNN
+F 3 "" H 9500 4000 60  0000 C CNN
+	1    9500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_Y1
+U 1 1 000002D0
+P 9150 4250
+F 0 "D_Y1" V 9196 4171 50  0000 R CNN
+F 1 "D" V 9095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9150 4250 50  0001 C CNN
+F 3 "~" H 9150 4250 50  0001 C CNN
+	1    9150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 4000 9150 4000
+Wire Wire Line
+	9150 4000 9150 4100
+Connection ~ 9800 4000
+Connection ~ 9150 4400
+$Comp
+L keyboard_parts:KEYSW K_U1
+U 1 1 000002E1
+P 10500 4000
+F 0 "K_U1" H 10500 4233 60  0000 C CNN
+F 1 "KEYSW" H 10500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 10500 4000 60  0001 C CNN
+F 3 "" H 10500 4000 60  0000 C CNN
+	1    10500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_U1
+U 1 1 000002E0
+P 10150 4250
+F 0 "D_U1" V 10196 4171 50  0000 R CNN
+F 1 "D" V 10095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 10150 4250 50  0001 C CNN
+F 3 "~" H 10150 4250 50  0001 C CNN
+	1    10150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 4000 10150 4000
+Wire Wire Line
+	10150 4000 10150 4100
+Connection ~ 10800 4000
+Connection ~ 10150 4400
+$Comp
+L keyboard_parts:KEYSW K_I1
+U 1 1 000002F1
+P 11500 4000
+F 0 "K_I1" H 11500 4233 60  0000 C CNN
+F 1 "KEYSW" H 11500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 11500 4000 60  0001 C CNN
+F 3 "" H 11500 4000 60  0000 C CNN
+	1    11500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_I1
+U 1 1 000002F0
+P 11150 4250
+F 0 "D_I1" V 11196 4171 50  0000 R CNN
+F 1 "D" V 11095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 11150 4250 50  0001 C CNN
+F 3 "~" H 11150 4250 50  0001 C CNN
+	1    11150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11200 4000 11150 4000
+Wire Wire Line
+	11150 4000 11150 4100
+Connection ~ 11800 4000
+Connection ~ 11150 4400
+$Comp
+L keyboard_parts:KEYSW K_O1
+U 1 1 00000301
+P 12500 4000
+F 0 "K_O1" H 12500 4233 60  0000 C CNN
+F 1 "KEYSW" H 12500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 12500 4000 60  0001 C CNN
+F 3 "" H 12500 4000 60  0000 C CNN
+	1    12500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_O1
+U 1 1 00000300
+P 12150 4250
+F 0 "D_O1" V 12196 4171 50  0000 R CNN
+F 1 "D" V 12095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12150 4250 50  0001 C CNN
+F 3 "~" H 12150 4250 50  0001 C CNN
+	1    12150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12200 4000 12150 4000
+Wire Wire Line
+	12150 4000 12150 4100
+Connection ~ 12800 4000
+Connection ~ 12150 4400
+$Comp
+L keyboard_parts:KEYSW K_P1
+U 1 1 00000311
+P 13500 4000
+F 0 "K_P1" H 13500 4233 60  0000 C CNN
+F 1 "KEYSW" H 13500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 13500 4000 60  0001 C CNN
+F 3 "" H 13500 4000 60  0000 C CNN
+	1    13500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_P1
+U 1 1 00000310
+P 13150 4250
+F 0 "D_P1" V 13196 4171 50  0000 R CNN
+F 1 "D" V 13095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 13150 4250 50  0001 C CNN
+F 3 "~" H 13150 4250 50  0001 C CNN
+	1    13150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13200 4000 13150 4000
+Wire Wire Line
+	13150 4000 13150 4100
+Connection ~ 13800 4000
+Connection ~ 13150 4400
+$Comp
+L keyboard_parts:KEYSW K_CBRAC1
+U 1 1 00000321
+P 14500 4000
+F 0 "K_CBRAC1" H 14500 4233 60  0000 C CNN
+F 1 "KEYSW" H 14500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 14500 4000 60  0001 C CNN
+F 3 "" H 14500 4000 60  0000 C CNN
+	1    14500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CBRAC1
+U 1 1 00000320
+P 14150 4250
+F 0 "D_CBRAC1" V 14196 4171 50  0000 R CNN
+F 1 "D" V 14095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 14150 4250 50  0001 C CNN
+F 3 "~" H 14150 4250 50  0001 C CNN
+	1    14150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14200 4000 14150 4000
+Wire Wire Line
+	14150 4000 14150 4100
+Connection ~ 14800 4000
+Connection ~ 14150 4400
+$Comp
+L keyboard_parts:KEYSW K_OBRAC1
+U 1 1 00000331
+P 15500 4000
+F 0 "K_OBRAC1" H 15500 4233 60  0000 C CNN
+F 1 "KEYSW" H 15500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 15500 4000 60  0001 C CNN
+F 3 "" H 15500 4000 60  0000 C CNN
+	1    15500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_OBRAC1
+U 1 1 00000330
+P 15150 4250
+F 0 "D_OBRAC1" V 15196 4171 50  0000 R CNN
+F 1 "D" V 15095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 15150 4250 50  0001 C CNN
+F 3 "~" H 15150 4250 50  0001 C CNN
+	1    15150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15200 4000 15150 4000
+Wire Wire Line
+	15150 4000 15150 4100
+Connection ~ 15800 4000
+Connection ~ 15150 4400
+$Comp
+L keyboard_parts:KEYSW K_BSLSH1
+U 1 1 00000341
+P 16500 4000
+F 0 "K_BSLSH1" H 16500 4233 60  0000 C CNN
+F 1 "KEYSW" H 16500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 16500 4000 60  0001 C CNN
+F 3 "" H 16500 4000 60  0000 C CNN
+	1    16500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_BSLSH1
+U 1 1 00000340
+P 16150 4250
+F 0 "D_BSLSH1" V 16196 4171 50  0000 R CNN
+F 1 "D" V 16095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 16150 4250 50  0001 C CNN
+F 3 "~" H 16150 4250 50  0001 C CNN
+	1    16150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16200 4000 16150 4000
+Wire Wire Line
+	16150 4000 16150 4100
+Connection ~ 16800 4000
+Connection ~ 16150 4400
+$Comp
+L keyboard_parts:KEYSW K_DELETE1
+U 1 1 00000351
+P 18500 4000
+F 0 "K_DELETE1" H 18500 4233 60  0000 C CNN
+F 1 "KEYSW" H 18500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 18500 4000 60  0001 C CNN
+F 3 "" H 18500 4000 60  0000 C CNN
+	1    18500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_DELETE1
+U 1 1 00000350
+P 18150 4250
+F 0 "D_DELETE1" V 18196 4171 50  0000 R CNN
+F 1 "D" V 18095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 18150 4250 50  0001 C CNN
+F 3 "~" H 18150 4250 50  0001 C CNN
+	1    18150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18200 4000 18150 4000
+Wire Wire Line
+	18150 4000 18150 4100
+Connection ~ 18800 4000
+Connection ~ 18150 4400
+$Comp
+L keyboard_parts:KEYSW K_END2
+U 1 1 00000361
+P 19500 4000
+F 0 "K_END2" H 19500 4233 60  0000 C CNN
+F 1 "KEYSW" H 19500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 19500 4000 60  0001 C CNN
+F 3 "" H 19500 4000 60  0000 C CNN
+	1    19500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_END2
+U 1 1 00000360
+P 19150 4250
+F 0 "D_END2" V 19196 4171 50  0000 R CNN
+F 1 "D" V 19095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 19150 4250 50  0001 C CNN
+F 3 "~" H 19150 4250 50  0001 C CNN
+	1    19150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19200 4000 19150 4000
+Wire Wire Line
+	19150 4000 19150 4100
+Connection ~ 19800 4000
+Connection ~ 19150 4400
+$Comp
+L keyboard_parts:KEYSW K_PGDN2
+U 1 1 00000371
+P 20500 4000
+F 0 "K_PGDN2" H 20500 4233 60  0000 C CNN
+F 1 "KEYSW" H 20500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 20500 4000 60  0001 C CNN
+F 3 "" H 20500 4000 60  0000 C CNN
+	1    20500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_PGDN2
+U 1 1 00000370
+P 20150 4250
+F 0 "D_PGDN2" V 20196 4171 50  0000 R CNN
+F 1 "D" V 20095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 20150 4250 50  0001 C CNN
+F 3 "~" H 20150 4250 50  0001 C CNN
+	1    20150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20200 4000 20150 4000
+Wire Wire Line
+	20150 4000 20150 4100
+Connection ~ 20800 4000
+Connection ~ 20150 4400
+$Comp
+L keyboard_parts:KEYSW K_HOME1
+U 1 1 00000381
+P 21500 4000
+F 0 "K_HOME1" H 21500 4233 60  0000 C CNN
+F 1 "KEYSW" H 21500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 21500 4000 60  0001 C CNN
+F 3 "" H 21500 4000 60  0000 C CNN
+	1    21500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_HOME1
+U 1 1 00000380
+P 21150 4250
+F 0 "D_HOME1" V 21196 4171 50  0000 R CNN
+F 1 "D" V 21095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 21150 4250 50  0001 C CNN
+F 3 "~" H 21150 4250 50  0001 C CNN
+	1    21150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21200 4000 21150 4000
+Wire Wire Line
+	21150 4000 21150 4100
+Connection ~ 21800 4000
+Connection ~ 21150 4400
+$Comp
+L keyboard_parts:KEYSW K_UP2
+U 1 1 00000391
+P 22500 4000
+F 0 "K_UP2" H 22500 4233 60  0000 C CNN
+F 1 "KEYSW" H 22500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 22500 4000 60  0001 C CNN
+F 3 "" H 22500 4000 60  0000 C CNN
+	1    22500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_UP2
+U 1 1 00000390
+P 22150 4250
+F 0 "D_UP2" V 22196 4171 50  0000 R CNN
+F 1 "D" V 22095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 22150 4250 50  0001 C CNN
+F 3 "~" H 22150 4250 50  0001 C CNN
+	1    22150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22200 4000 22150 4000
+Wire Wire Line
+	22150 4000 22150 4100
+Connection ~ 22800 4000
+Connection ~ 22150 4400
+$Comp
+L keyboard_parts:KEYSW K_PGUP1
+U 1 1 000003A1
+P 23500 4000
+F 0 "K_PGUP1" H 23500 4233 60  0000 C CNN
+F 1 "KEYSW" H 23500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 23500 4000 60  0001 C CNN
+F 3 "" H 23500 4000 60  0000 C CNN
+	1    23500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_PGUP1
+U 1 1 000003A0
+P 23150 4250
+F 0 "D_PGUP1" V 23196 4171 50  0000 R CNN
+F 1 "D" V 23095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 23150 4250 50  0001 C CNN
+F 3 "~" H 23150 4250 50  0001 C CNN
+	1    23150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23200 4000 23150 4000
+Wire Wire Line
+	23150 4000 23150 4100
+Connection ~ 23800 4000
+Connection ~ 23150 4400
+$Comp
+L keyboard_parts:KEYSW K_PLUS1
+U 1 1 000003B1
+P 24500 4000
+F 0 "K_PLUS1" H 24500 4233 60  0000 C CNN
+F 1 "KEYSW" H 24500 3900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP-2U" H 24500 4000 60  0001 C CNN
+F 3 "" H 24500 4000 60  0000 C CNN
+	1    24500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_PLUS1
+U 1 1 000003B0
+P 24150 4250
+F 0 "D_PLUS1" V 24196 4171 50  0000 R CNN
+F 1 "D" V 24095 4171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 24150 4250 50  0001 C CNN
+F 3 "~" H 24150 4250 50  0001 C CNN
+	1    24150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24200 4000 24150 4000
+Wire Wire Line
+	24150 4000 24150 4100
+Connection ~ 24800 4000
+Wire Wire Line
+	1150 4400 3150 4400
+Text GLabel 900  5400 0    50   Input ~ 0
+row4
+Wire Wire Line
+	900  5400 1150 5400
+$Comp
+L keyboard_parts:KEYSW K_M3
+U 1 1 000003C1
+P 1500 5000
+F 0 "K_M3" H 1500 5233 60  0000 C CNN
+F 1 "KEYSW" H 1500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 1500 5000 60  0001 C CNN
+F 3 "" H 1500 5000 60  0000 C CNN
+	1    1500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_M3
+U 1 1 000003C0
+P 1150 5250
+F 0 "D_M3" V 1196 5171 50  0000 R CNN
+F 1 "D" V 1095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1150 5250 50  0001 C CNN
+F 3 "~" H 1150 5250 50  0001 C CNN
+	1    1150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 5000 1150 5000
+Wire Wire Line
+	1150 5000 1150 5100
+Connection ~ 1800 5000
+Connection ~ 1150 5400
+$Comp
+L keyboard_parts:KEYSW K_CAPS1
+U 1 1 000003D1
+P 3500 5000
+F 0 "K_CAPS1" H 3500 5233 60  0000 C CNN
+F 1 "KEYSW" H 3500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 3500 5000 60  0001 C CNN
+F 3 "" H 3500 5000 60  0000 C CNN
+	1    3500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CAPS1
+U 1 1 000003D0
+P 3150 5250
+F 0 "D_CAPS1" V 3196 5171 50  0000 R CNN
+F 1 "D" V 3095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3150 5250 50  0001 C CNN
+F 3 "~" H 3150 5250 50  0001 C CNN
+	1    3150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 5000 3150 5000
+Wire Wire Line
+	3150 5000 3150 5100
+Connection ~ 3800 5000
+Connection ~ 3150 5400
+$Comp
+L keyboard_parts:KEYSW K_A1
+U 1 1 000003E1
+P 4500 5000
+F 0 "K_A1" H 4500 5233 60  0000 C CNN
+F 1 "KEYSW" H 4500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 4500 5000 60  0001 C CNN
+F 3 "" H 4500 5000 60  0000 C CNN
+	1    4500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_A1
+U 1 1 000003E0
+P 4150 5250
+F 0 "D_A1" V 4196 5171 50  0000 R CNN
+F 1 "D" V 4095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 4150 5250 50  0001 C CNN
+F 3 "~" H 4150 5250 50  0001 C CNN
+	1    4150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 5000 4150 5000
+Wire Wire Line
+	4150 5000 4150 5100
+Connection ~ 4800 5000
+Connection ~ 4150 5400
+$Comp
+L keyboard_parts:KEYSW K_S1
+U 1 1 000003F1
+P 5500 5000
+F 0 "K_S1" H 5500 5233 60  0000 C CNN
+F 1 "KEYSW" H 5500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 5500 5000 60  0001 C CNN
+F 3 "" H 5500 5000 60  0000 C CNN
+	1    5500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_S1
+U 1 1 000003F0
+P 5150 5250
+F 0 "D_S1" V 5196 5171 50  0000 R CNN
+F 1 "D" V 5095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5150 5250 50  0001 C CNN
+F 3 "~" H 5150 5250 50  0001 C CNN
+	1    5150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 5000 5150 5000
+Wire Wire Line
+	5150 5000 5150 5100
+Connection ~ 5800 5000
+Connection ~ 5150 5400
+$Comp
+L keyboard_parts:KEYSW K_D1
+U 1 1 00000401
+P 6500 5000
+F 0 "K_D1" H 6500 5233 60  0000 C CNN
+F 1 "KEYSW" H 6500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 6500 5000 60  0001 C CNN
+F 3 "" H 6500 5000 60  0000 C CNN
+	1    6500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_D1
+U 1 1 00000400
+P 6150 5250
+F 0 "D_D1" V 6196 5171 50  0000 R CNN
+F 1 "D" V 6095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 6150 5250 50  0001 C CNN
+F 3 "~" H 6150 5250 50  0001 C CNN
+	1    6150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 5000 6150 5000
+Wire Wire Line
+	6150 5000 6150 5100
+Connection ~ 6800 5000
+Connection ~ 6150 5400
+$Comp
+L keyboard_parts:KEYSW K_F13
+U 1 1 00000411
+P 7500 5000
+F 0 "K_F13" H 7500 5233 60  0000 C CNN
+F 1 "KEYSW" H 7500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 7500 5000 60  0001 C CNN
+F 3 "" H 7500 5000 60  0000 C CNN
+	1    7500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F13
+U 1 1 00000410
+P 7150 5250
+F 0 "D_F13" V 7196 5171 50  0000 R CNN
+F 1 "D" V 7095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7150 5250 50  0001 C CNN
+F 3 "~" H 7150 5250 50  0001 C CNN
+	1    7150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 5000 7150 5000
+Wire Wire Line
+	7150 5000 7150 5100
+Connection ~ 7800 5000
+Connection ~ 7150 5400
+$Comp
+L keyboard_parts:KEYSW K_G1
+U 1 1 00000421
+P 8500 5000
+F 0 "K_G1" H 8500 5233 60  0000 C CNN
+F 1 "KEYSW" H 8500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 8500 5000 60  0001 C CNN
+F 3 "" H 8500 5000 60  0000 C CNN
+	1    8500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_G1
+U 1 1 00000420
+P 8150 5250
+F 0 "D_G1" V 8196 5171 50  0000 R CNN
+F 1 "D" V 8095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 8150 5250 50  0001 C CNN
+F 3 "~" H 8150 5250 50  0001 C CNN
+	1    8150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 5000 8150 5000
+Wire Wire Line
+	8150 5000 8150 5100
+Connection ~ 8800 5000
+Connection ~ 8150 5400
+$Comp
+L keyboard_parts:KEYSW K_H1
+U 1 1 00000431
+P 9500 5000
+F 0 "K_H1" H 9500 5233 60  0000 C CNN
+F 1 "KEYSW" H 9500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 9500 5000 60  0001 C CNN
+F 3 "" H 9500 5000 60  0000 C CNN
+	1    9500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_H1
+U 1 1 00000430
+P 9150 5250
+F 0 "D_H1" V 9196 5171 50  0000 R CNN
+F 1 "D" V 9095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9150 5250 50  0001 C CNN
+F 3 "~" H 9150 5250 50  0001 C CNN
+	1    9150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 5000 9150 5000
+Wire Wire Line
+	9150 5000 9150 5100
+Connection ~ 9800 5000
+Connection ~ 9150 5400
+$Comp
+L keyboard_parts:KEYSW K_J1
+U 1 1 00000441
+P 10500 5000
+F 0 "K_J1" H 10500 5233 60  0000 C CNN
+F 1 "KEYSW" H 10500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 10500 5000 60  0001 C CNN
+F 3 "" H 10500 5000 60  0000 C CNN
+	1    10500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_J1
+U 1 1 00000440
+P 10150 5250
+F 0 "D_J1" V 10196 5171 50  0000 R CNN
+F 1 "D" V 10095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 10150 5250 50  0001 C CNN
+F 3 "~" H 10150 5250 50  0001 C CNN
+	1    10150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 5000 10150 5000
+Wire Wire Line
+	10150 5000 10150 5100
+Connection ~ 10800 5000
+Connection ~ 10150 5400
+$Comp
+L keyboard_parts:KEYSW K_K1
+U 1 1 00000451
+P 11500 5000
+F 0 "K_K1" H 11500 5233 60  0000 C CNN
+F 1 "KEYSW" H 11500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 11500 5000 60  0001 C CNN
+F 3 "" H 11500 5000 60  0000 C CNN
+	1    11500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_K1
+U 1 1 00000450
+P 11150 5250
+F 0 "D_K1" V 11196 5171 50  0000 R CNN
+F 1 "D" V 11095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 11150 5250 50  0001 C CNN
+F 3 "~" H 11150 5250 50  0001 C CNN
+	1    11150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11200 5000 11150 5000
+Wire Wire Line
+	11150 5000 11150 5100
+Connection ~ 11800 5000
+Connection ~ 11150 5400
+$Comp
+L keyboard_parts:KEYSW K_L1
+U 1 1 00000461
+P 12500 5000
+F 0 "K_L1" H 12500 5233 60  0000 C CNN
+F 1 "KEYSW" H 12500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 12500 5000 60  0001 C CNN
+F 3 "" H 12500 5000 60  0000 C CNN
+	1    12500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_L1
+U 1 1 00000460
+P 12150 5250
+F 0 "D_L1" V 12196 5171 50  0000 R CNN
+F 1 "D" V 12095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12150 5250 50  0001 C CNN
+F 3 "~" H 12150 5250 50  0001 C CNN
+	1    12150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12200 5000 12150 5000
+Wire Wire Line
+	12150 5000 12150 5100
+Connection ~ 12800 5000
+Connection ~ 12150 5400
+$Comp
+L keyboard_parts:KEYSW K_SEMIC1
+U 1 1 00000471
+P 13500 5000
+F 0 "K_SEMIC1" H 13500 5233 60  0000 C CNN
+F 1 "KEYSW" H 13500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 13500 5000 60  0001 C CNN
+F 3 "" H 13500 5000 60  0000 C CNN
+	1    13500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SEMIC1
+U 1 1 00000470
+P 13150 5250
+F 0 "D_SEMIC1" V 13196 5171 50  0000 R CNN
+F 1 "D" V 13095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 13150 5250 50  0001 C CNN
+F 3 "~" H 13150 5250 50  0001 C CNN
+	1    13150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13200 5000 13150 5000
+Wire Wire Line
+	13150 5000 13150 5100
+Connection ~ 13800 5000
+Connection ~ 13150 5400
+$Comp
+L keyboard_parts:KEYSW K_QUOTE1
+U 1 1 00000481
+P 14500 5000
+F 0 "K_QUOTE1" H 14500 5233 60  0000 C CNN
+F 1 "KEYSW" H 14500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 14500 5000 60  0001 C CNN
+F 3 "" H 14500 5000 60  0000 C CNN
+	1    14500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_QUOTE1
+U 1 1 00000480
+P 14150 5250
+F 0 "D_QUOTE1" V 14196 5171 50  0000 R CNN
+F 1 "D" V 14095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 14150 5250 50  0001 C CNN
+F 3 "~" H 14150 5250 50  0001 C CNN
+	1    14150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14200 5000 14150 5000
+Wire Wire Line
+	14150 5000 14150 5100
+Connection ~ 14800 5000
+Connection ~ 14150 5400
+$Comp
+L keyboard_parts:KEYSW K_ENTER2
+U 1 1 00000491
+P 16500 5000
+F 0 "K_ENTER2" H 16500 5233 60  0000 C CNN
+F 1 "KEYSW" H 16500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP-2U-FLIP" H 16500 5000 60  0001 C CNN
+F 3 "" H 16500 5000 60  0000 C CNN
+	1    16500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ENTER2
+U 1 1 00000490
+P 16150 5250
+F 0 "D_ENTER2" V 16196 5171 50  0000 R CNN
+F 1 "D" V 16095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 16150 5250 50  0001 C CNN
+F 3 "~" H 16150 5250 50  0001 C CNN
+	1    16150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16200 5000 16150 5000
+Wire Wire Line
+	16150 5000 16150 5100
+Connection ~ 16800 5000
+Connection ~ 16150 5400
+$Comp
+L keyboard_parts:KEYSW K_LEFT2
+U 1 1 000004A1
+P 21500 5000
+F 0 "K_LEFT2" H 21500 5233 60  0000 C CNN
+F 1 "KEYSW" H 21500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 21500 5000 60  0001 C CNN
+F 3 "" H 21500 5000 60  0000 C CNN
+	1    21500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_LEFT2
+U 1 1 000004A0
+P 21150 5250
+F 0 "D_LEFT2" V 21196 5171 50  0000 R CNN
+F 1 "D" V 21095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 21150 5250 50  0001 C CNN
+F 3 "~" H 21150 5250 50  0001 C CNN
+	1    21150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21200 5000 21150 5000
+Wire Wire Line
+	21150 5000 21150 5100
+Connection ~ 21800 5000
+Connection ~ 21150 5400
+$Comp
+L keyboard_parts:KEYSW K_10
+U 1 1 000004B1
+P 22500 5000
+F 0 "K_10" H 22500 5233 60  0000 C CNN
+F 1 "KEYSW" H 22500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 22500 5000 60  0001 C CNN
+F 3 "" H 22500 5000 60  0000 C CNN
+	1    22500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_10
+U 1 1 000004B0
+P 22150 5250
+F 0 "D_10" V 22196 5171 50  0000 R CNN
+F 1 "D" V 22095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 22150 5250 50  0001 C CNN
+F 3 "~" H 22150 5250 50  0001 C CNN
+	1    22150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22200 5000 22150 5000
+Wire Wire Line
+	22150 5000 22150 5100
+Connection ~ 22800 5000
+Connection ~ 22150 5400
+$Comp
+L keyboard_parts:KEYSW K_RIGHT2
+U 1 1 000004C1
+P 23500 5000
+F 0 "K_RIGHT2" H 23500 5233 60  0000 C CNN
+F 1 "KEYSW" H 23500 4900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 23500 5000 60  0001 C CNN
+F 3 "" H 23500 5000 60  0000 C CNN
+	1    23500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_RIGHT2
+U 1 1 000004C0
+P 23150 5250
+F 0 "D_RIGHT2" V 23196 5171 50  0000 R CNN
+F 1 "D" V 23095 5171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 23150 5250 50  0001 C CNN
+F 3 "~" H 23150 5250 50  0001 C CNN
+	1    23150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23200 5000 23150 5000
+Wire Wire Line
+	23150 5000 23150 5100
+Connection ~ 23800 5000
+Wire Wire Line
+	1150 5400 3150 5400
+Text GLabel 900  6400 0    50   Input ~ 0
+row5
+Wire Wire Line
+	900  6400 1150 6400
+$Comp
+L keyboard_parts:KEYSW K_M4
+U 1 1 000004D1
+P 1500 6000
+F 0 "K_M4" H 1500 6233 60  0000 C CNN
+F 1 "KEYSW" H 1500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 1500 6000 60  0001 C CNN
+F 3 "" H 1500 6000 60  0000 C CNN
+	1    1500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_M4
+U 1 1 000004D0
+P 1150 6250
+F 0 "D_M4" V 1196 6171 50  0000 R CNN
+F 1 "D" V 1095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1150 6250 50  0001 C CNN
+F 3 "~" H 1150 6250 50  0001 C CNN
+	1    1150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 6000 1150 6000
+Wire Wire Line
+	1150 6000 1150 6100
+Connection ~ 1800 6000
+Connection ~ 1150 6400
+$Comp
+L keyboard_parts:KEYSW K_SHIFT2
+U 1 1 000004E1
+P 3500 6000
+F 0 "K_SHIFT2" H 3500 6233 60  0000 C CNN
+F 1 "KEYSW" H 3500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP-2U-FLIP" H 3500 6000 60  0001 C CNN
+F 3 "" H 3500 6000 60  0000 C CNN
+	1    3500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SHIFT2
+U 1 1 000004E0
+P 3150 6250
+F 0 "D_SHIFT2" V 3196 6171 50  0000 R CNN
+F 1 "D" V 3095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3150 6250 50  0001 C CNN
+F 3 "~" H 3150 6250 50  0001 C CNN
+	1    3150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 6000 3150 6000
+Wire Wire Line
+	3150 6000 3150 6100
+Connection ~ 3150 6400
+$Comp
+L keyboard_parts:KEYSW K_Z1
+U 1 1 000004F1
+P 5500 6000
+F 0 "K_Z1" H 5500 6233 60  0000 C CNN
+F 1 "KEYSW" H 5500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 5500 6000 60  0001 C CNN
+F 3 "" H 5500 6000 60  0000 C CNN
+	1    5500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_Z1
+U 1 1 000004F0
+P 5150 6250
+F 0 "D_Z1" V 5196 6171 50  0000 R CNN
+F 1 "D" V 5095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5150 6250 50  0001 C CNN
+F 3 "~" H 5150 6250 50  0001 C CNN
+	1    5150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 6000 5150 6000
+Wire Wire Line
+	5150 6000 5150 6100
+Connection ~ 5800 6000
+Connection ~ 5150 6400
+$Comp
+L keyboard_parts:KEYSW K_X1
+U 1 1 00000501
+P 6500 6000
+F 0 "K_X1" H 6500 6233 60  0000 C CNN
+F 1 "KEYSW" H 6500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 6500 6000 60  0001 C CNN
+F 3 "" H 6500 6000 60  0000 C CNN
+	1    6500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_X1
+U 1 1 00000500
+P 6150 6250
+F 0 "D_X1" V 6196 6171 50  0000 R CNN
+F 1 "D" V 6095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 6150 6250 50  0001 C CNN
+F 3 "~" H 6150 6250 50  0001 C CNN
+	1    6150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 6000 6150 6000
+Wire Wire Line
+	6150 6000 6150 6100
+Connection ~ 6150 6400
+$Comp
+L keyboard_parts:KEYSW K_C1
+U 1 1 00000511
+P 7500 6000
+F 0 "K_C1" H 7500 6233 60  0000 C CNN
+F 1 "KEYSW" H 7500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 7500 6000 60  0001 C CNN
+F 3 "" H 7500 6000 60  0000 C CNN
+	1    7500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_C1
+U 1 1 00000510
+P 7150 6250
+F 0 "D_C1" V 7196 6171 50  0000 R CNN
+F 1 "D" V 7095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7150 6250 50  0001 C CNN
+F 3 "~" H 7150 6250 50  0001 C CNN
+	1    7150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 6000 7150 6000
+Wire Wire Line
+	7150 6000 7150 6100
+Connection ~ 7150 6400
+$Comp
+L keyboard_parts:KEYSW K_V1
+U 1 1 00000521
+P 8500 6000
+F 0 "K_V1" H 8500 6233 60  0000 C CNN
+F 1 "KEYSW" H 8500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 8500 6000 60  0001 C CNN
+F 3 "" H 8500 6000 60  0000 C CNN
+	1    8500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_V1
+U 1 1 00000520
+P 8150 6250
+F 0 "D_V1" V 8196 6171 50  0000 R CNN
+F 1 "D" V 8095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 8150 6250 50  0001 C CNN
+F 3 "~" H 8150 6250 50  0001 C CNN
+	1    8150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 6000 8150 6000
+Wire Wire Line
+	8150 6000 8150 6100
+Connection ~ 8150 6400
+$Comp
+L keyboard_parts:KEYSW K_B1
+U 1 1 00000531
+P 9500 6000
+F 0 "K_B1" H 9500 6233 60  0000 C CNN
+F 1 "KEYSW" H 9500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 9500 6000 60  0001 C CNN
+F 3 "" H 9500 6000 60  0000 C CNN
+	1    9500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_B1
+U 1 1 00000530
+P 9150 6250
+F 0 "D_B1" V 9196 6171 50  0000 R CNN
+F 1 "D" V 9095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9150 6250 50  0001 C CNN
+F 3 "~" H 9150 6250 50  0001 C CNN
+	1    9150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 6000 9150 6000
+Wire Wire Line
+	9150 6000 9150 6100
+Connection ~ 9800 6000
+Connection ~ 9150 6400
+$Comp
+L keyboard_parts:KEYSW K_N1
+U 1 1 00000541
+P 10500 6000
+F 0 "K_N1" H 10500 6233 60  0000 C CNN
+F 1 "KEYSW" H 10500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 10500 6000 60  0001 C CNN
+F 3 "" H 10500 6000 60  0000 C CNN
+	1    10500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_N1
+U 1 1 00000540
+P 10150 6250
+F 0 "D_N1" V 10196 6171 50  0000 R CNN
+F 1 "D" V 10095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 10150 6250 50  0001 C CNN
+F 3 "~" H 10150 6250 50  0001 C CNN
+	1    10150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 6000 10150 6000
+Wire Wire Line
+	10150 6000 10150 6100
+Connection ~ 10150 6400
+$Comp
+L keyboard_parts:KEYSW K_M6
+U 1 1 00000551
+P 11500 6000
+F 0 "K_M6" H 11500 6233 60  0000 C CNN
+F 1 "KEYSW" H 11500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 11500 6000 60  0001 C CNN
+F 3 "" H 11500 6000 60  0000 C CNN
+	1    11500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_M6
+U 1 1 00000550
+P 11150 6250
+F 0 "D_M6" V 11196 6171 50  0000 R CNN
+F 1 "D" V 11095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 11150 6250 50  0001 C CNN
+F 3 "~" H 11150 6250 50  0001 C CNN
+	1    11150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11200 6000 11150 6000
+Wire Wire Line
+	11150 6000 11150 6100
+Connection ~ 11150 6400
+$Comp
+L keyboard_parts:KEYSW K_COMMA1
+U 1 1 00000561
+P 12500 6000
+F 0 "K_COMMA1" H 12500 6233 60  0000 C CNN
+F 1 "KEYSW" H 12500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 12500 6000 60  0001 C CNN
+F 3 "" H 12500 6000 60  0000 C CNN
+	1    12500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_COMMA1
+U 1 1 00000560
+P 12150 6250
+F 0 "D_COMMA1" V 12196 6171 50  0000 R CNN
+F 1 "D" V 12095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12150 6250 50  0001 C CNN
+F 3 "~" H 12150 6250 50  0001 C CNN
+	1    12150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12200 6000 12150 6000
+Wire Wire Line
+	12150 6000 12150 6100
+Connection ~ 12800 6000
+Connection ~ 12150 6400
+$Comp
+L keyboard_parts:KEYSW K_DOT1
+U 1 1 00000571
+P 13500 6000
+F 0 "K_DOT1" H 13500 6233 60  0000 C CNN
+F 1 "KEYSW" H 13500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 13500 6000 60  0001 C CNN
+F 3 "" H 13500 6000 60  0000 C CNN
+	1    13500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_DOT1
+U 1 1 00000570
+P 13150 6250
+F 0 "D_DOT1" V 13196 6171 50  0000 R CNN
+F 1 "D" V 13095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 13150 6250 50  0001 C CNN
+F 3 "~" H 13150 6250 50  0001 C CNN
+	1    13150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13200 6000 13150 6000
+Wire Wire Line
+	13150 6000 13150 6100
+Connection ~ 13150 6400
+$Comp
+L keyboard_parts:KEYSW K_SLASH1
+U 1 1 00000581
+P 14500 6000
+F 0 "K_SLASH1" H 14500 6233 60  0000 C CNN
+F 1 "KEYSW" H 14500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 14500 6000 60  0001 C CNN
+F 3 "" H 14500 6000 60  0000 C CNN
+	1    14500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SLASH1
+U 1 1 00000580
+P 14150 6250
+F 0 "D_SLASH1" V 14196 6171 50  0000 R CNN
+F 1 "D" V 14095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 14150 6250 50  0001 C CNN
+F 3 "~" H 14150 6250 50  0001 C CNN
+	1    14150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14200 6000 14150 6000
+Wire Wire Line
+	14150 6000 14150 6100
+Connection ~ 14800 6000
+Connection ~ 14150 6400
+$Comp
+L keyboard_parts:KEYSW K_SHIFT1
+U 1 1 00000591
+P 15500 6000
+F 0 "K_SHIFT1" H 15500 6233 60  0000 C CNN
+F 1 "KEYSW" H 15500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP-2U-FLIP" H 15500 6000 60  0001 C CNN
+F 3 "" H 15500 6000 60  0000 C CNN
+	1    15500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SHIFT1
+U 1 1 00000590
+P 15150 6250
+F 0 "D_SHIFT1" V 15196 6171 50  0000 R CNN
+F 1 "D" V 15095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 15150 6250 50  0001 C CNN
+F 3 "~" H 15150 6250 50  0001 C CNN
+	1    15150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15200 6000 15150 6000
+Wire Wire Line
+	15150 6000 15150 6100
+Connection ~ 15800 6000
+Connection ~ 15150 6400
+$Comp
+L keyboard_parts:KEYSW K_UP1
+U 1 1 000005A1
+P 19500 6000
+F 0 "K_UP1" H 19500 6233 60  0000 C CNN
+F 1 "KEYSW" H 19500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 19500 6000 60  0001 C CNN
+F 3 "" H 19500 6000 60  0000 C CNN
+	1    19500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_UP1
+U 1 1 000005A0
+P 19150 6250
+F 0 "D_UP1" V 19196 6171 50  0000 R CNN
+F 1 "D" V 19095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 19150 6250 50  0001 C CNN
+F 3 "~" H 19150 6250 50  0001 C CNN
+	1    19150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19200 6000 19150 6000
+Wire Wire Line
+	19150 6000 19150 6100
+Connection ~ 19800 6000
+Connection ~ 19150 6400
+$Comp
+L keyboard_parts:KEYSW K_END1
+U 1 1 000005B1
+P 21500 6000
+F 0 "K_END1" H 21500 6233 60  0000 C CNN
+F 1 "KEYSW" H 21500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 21500 6000 60  0001 C CNN
+F 3 "" H 21500 6000 60  0000 C CNN
+	1    21500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_END1
+U 1 1 000005B0
+P 21150 6250
+F 0 "D_END1" V 21196 6171 50  0000 R CNN
+F 1 "D" V 21095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 21150 6250 50  0001 C CNN
+F 3 "~" H 21150 6250 50  0001 C CNN
+	1    21150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21200 6000 21150 6000
+Wire Wire Line
+	21150 6000 21150 6100
+Connection ~ 21800 6000
+Connection ~ 21150 6400
+$Comp
+L keyboard_parts:KEYSW K_DOWN2
+U 1 1 000005C1
+P 22500 6000
+F 0 "K_DOWN2" H 22500 6233 60  0000 C CNN
+F 1 "KEYSW" H 22500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 22500 6000 60  0001 C CNN
+F 3 "" H 22500 6000 60  0000 C CNN
+	1    22500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_DOWN2
+U 1 1 000005C0
+P 22150 6250
+F 0 "D_DOWN2" V 22196 6171 50  0000 R CNN
+F 1 "D" V 22095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 22150 6250 50  0001 C CNN
+F 3 "~" H 22150 6250 50  0001 C CNN
+	1    22150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22200 6000 22150 6000
+Wire Wire Line
+	22150 6000 22150 6100
+Connection ~ 22150 6400
+$Comp
+L keyboard_parts:KEYSW K_PGDN1
+U 1 1 000005D1
+P 23500 6000
+F 0 "K_PGDN1" H 23500 6233 60  0000 C CNN
+F 1 "KEYSW" H 23500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 23500 6000 60  0001 C CNN
+F 3 "" H 23500 6000 60  0000 C CNN
+	1    23500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_PGDN1
+U 1 1 000005D0
+P 23150 6250
+F 0 "D_PGDN1" V 23196 6171 50  0000 R CNN
+F 1 "D" V 23095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 23150 6250 50  0001 C CNN
+F 3 "~" H 23150 6250 50  0001 C CNN
+	1    23150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23200 6000 23150 6000
+Wire Wire Line
+	23150 6000 23150 6100
+Connection ~ 23800 6000
+Connection ~ 23150 6400
+$Comp
+L keyboard_parts:KEYSW K_ENTER1
+U 1 1 000005E1
+P 24500 6000
+F 0 "K_ENTER1" H 24500 6233 60  0000 C CNN
+F 1 "KEYSW" H 24500 5900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP-2U" H 24500 6000 60  0001 C CNN
+F 3 "" H 24500 6000 60  0000 C CNN
+	1    24500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ENTER1
+U 1 1 000005E0
+P 24150 6250
+F 0 "D_ENTER1" V 24196 6171 50  0000 R CNN
+F 1 "D" V 24095 6171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 24150 6250 50  0001 C CNN
+F 3 "~" H 24150 6250 50  0001 C CNN
+	1    24150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24200 6000 24150 6000
+Wire Wire Line
+	24150 6000 24150 6100
+Wire Wire Line
+	1150 6400 3150 6400
+Text GLabel 900  7400 0    50   Input ~ 0
+row6
+Wire Wire Line
+	900  7400 1150 7400
+$Comp
+L keyboard_parts:KEYSW K_M5
+U 1 1 000005F1
+P 1500 7000
+F 0 "K_M5" H 1500 7233 60  0000 C CNN
+F 1 "KEYSW" H 1500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 1500 7000 60  0001 C CNN
+F 3 "" H 1500 7000 60  0000 C CNN
+	1    1500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_M5
+U 1 1 000005F0
+P 1150 7250
+F 0 "D_M5" V 1196 7171 50  0000 R CNN
+F 1 "D" V 1095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1150 7250 50  0001 C CNN
+F 3 "~" H 1150 7250 50  0001 C CNN
+	1    1150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 7000 1150 7000
+Wire Wire Line
+	1150 7000 1150 7100
+Connection ~ 1150 7400
+$Comp
+L keyboard_parts:KEYSW K_CTRL2
+U 1 1 00000601
+P 2500 7000
+F 0 "K_CTRL2" H 2500 7233 60  0000 C CNN
+F 1 "KEYSW" H 2500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 2500 7000 60  0001 C CNN
+F 3 "" H 2500 7000 60  0000 C CNN
+	1    2500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CTRL2
+U 1 1 00000600
+P 2150 7250
+F 0 "D_CTRL2" V 2196 7171 50  0000 R CNN
+F 1 "D" V 2095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 2150 7250 50  0001 C CNN
+F 3 "~" H 2150 7250 50  0001 C CNN
+	1    2150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 7000 2150 7000
+Wire Wire Line
+	2150 7000 2150 7100
+Connection ~ 2150 7400
+$Comp
+L keyboard_parts:KEYSW K_WIN2
+U 1 1 00000611
+P 4500 7000
+F 0 "K_WIN2" H 4500 7233 60  0000 C CNN
+F 1 "KEYSW" H 4500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 4500 7000 60  0001 C CNN
+F 3 "" H 4500 7000 60  0000 C CNN
+	1    4500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_WIN2
+U 1 1 00000610
+P 4150 7250
+F 0 "D_WIN2" V 4196 7171 50  0000 R CNN
+F 1 "D" V 4095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 4150 7250 50  0001 C CNN
+F 3 "~" H 4150 7250 50  0001 C CNN
+	1    4150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 7000 4150 7000
+Wire Wire Line
+	4150 7000 4150 7100
+Connection ~ 4150 7400
+$Comp
+L keyboard_parts:KEYSW K_ALT2
+U 1 1 00000621
+P 5500 7000
+F 0 "K_ALT2" H 5500 7233 60  0000 C CNN
+F 1 "KEYSW" H 5500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 5500 7000 60  0001 C CNN
+F 3 "" H 5500 7000 60  0000 C CNN
+	1    5500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ALT2
+U 1 1 00000620
+P 5150 7250
+F 0 "D_ALT2" V 5196 7171 50  0000 R CNN
+F 1 "D" V 5095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5150 7250 50  0001 C CNN
+F 3 "~" H 5150 7250 50  0001 C CNN
+	1    5150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 7000 5150 7000
+Wire Wire Line
+	5150 7000 5150 7100
+Connection ~ 5150 7400
+$Comp
+L keyboard_parts:KEYSW K_SPACE1
+U 1 1 00000631
+P 9500 7000
+F 0 "K_SPACE1" H 9500 7233 60  0000 C CNN
+F 1 "KEYSW" H 9500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX625_base" H 9500 7000 60  0001 C CNN
+F 3 "" H 9500 7000 60  0000 C CNN
+	1    9500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SPACE1
+U 1 1 00000630
+P 9150 7250
+F 0 "D_SPACE1" V 9196 7171 50  0000 R CNN
+F 1 "D" V 9095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9150 7250 50  0001 C CNN
+F 3 "~" H 9150 7250 50  0001 C CNN
+	1    9150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 7000 9150 7000
+Wire Wire Line
+	9150 7000 9150 7100
+Connection ~ 9150 7400
+$Comp
+L keyboard_parts:KEYSW K_ALT1
+U 1 1 00000641
+P 12500 7000
+F 0 "K_ALT1" H 12500 7233 60  0000 C CNN
+F 1 "KEYSW" H 12500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 12500 7000 60  0001 C CNN
+F 3 "" H 12500 7000 60  0000 C CNN
+	1    12500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ALT1
+U 1 1 00000640
+P 12150 7250
+F 0 "D_ALT1" V 12196 7171 50  0000 R CNN
+F 1 "D" V 12095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12150 7250 50  0001 C CNN
+F 3 "~" H 12150 7250 50  0001 C CNN
+	1    12150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12200 7000 12150 7000
+Wire Wire Line
+	12150 7000 12150 7100
+Connection ~ 12150 7400
+$Comp
+L keyboard_parts:KEYSW K_WIN1
+U 1 1 00000651
+P 14500 7000
+F 0 "K_WIN1" H 14500 7233 60  0000 C CNN
+F 1 "KEYSW" H 14500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 14500 7000 60  0001 C CNN
+F 3 "" H 14500 7000 60  0000 C CNN
+	1    14500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_WIN1
+U 1 1 00000650
+P 14150 7250
+F 0 "D_WIN1" V 14196 7171 50  0000 R CNN
+F 1 "D" V 14095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 14150 7250 50  0001 C CNN
+F 3 "~" H 14150 7250 50  0001 C CNN
+	1    14150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14200 7000 14150 7000
+Wire Wire Line
+	14150 7000 14150 7100
+Connection ~ 14150 7400
+$Comp
+L keyboard_parts:KEYSW K_MENU1
+U 1 1 00000661
+P 15500 7000
+F 0 "K_MENU1" H 15500 7233 60  0000 C CNN
+F 1 "KEYSW" H 15500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 15500 7000 60  0001 C CNN
+F 3 "" H 15500 7000 60  0000 C CNN
+	1    15500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_MENU1
+U 1 1 00000660
+P 15150 7250
+F 0 "D_MENU1" V 15196 7171 50  0000 R CNN
+F 1 "D" V 15095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 15150 7250 50  0001 C CNN
+F 3 "~" H 15150 7250 50  0001 C CNN
+	1    15150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15200 7000 15150 7000
+Wire Wire Line
+	15150 7000 15150 7100
+Connection ~ 15150 7400
+$Comp
+L keyboard_parts:KEYSW K_CTRL1
+U 1 1 00000671
+P 16500 7000
+F 0 "K_CTRL1" H 16500 7233 60  0000 C CNN
+F 1 "KEYSW" H 16500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 16500 7000 60  0001 C CNN
+F 3 "" H 16500 7000 60  0000 C CNN
+	1    16500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CTRL1
+U 1 1 00000670
+P 16150 7250
+F 0 "D_CTRL1" V 16196 7171 50  0000 R CNN
+F 1 "D" V 16095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 16150 7250 50  0001 C CNN
+F 3 "~" H 16150 7250 50  0001 C CNN
+	1    16150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16200 7000 16150 7000
+Wire Wire Line
+	16150 7000 16150 7100
+Connection ~ 16150 7400
+$Comp
+L keyboard_parts:KEYSW K_LEFT1
+U 1 1 00000681
+P 18500 7000
+F 0 "K_LEFT1" H 18500 7233 60  0000 C CNN
+F 1 "KEYSW" H 18500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 18500 7000 60  0001 C CNN
+F 3 "" H 18500 7000 60  0000 C CNN
+	1    18500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_LEFT1
+U 1 1 00000680
+P 18150 7250
+F 0 "D_LEFT1" V 18196 7171 50  0000 R CNN
+F 1 "D" V 18095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 18150 7250 50  0001 C CNN
+F 3 "~" H 18150 7250 50  0001 C CNN
+	1    18150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18200 7000 18150 7000
+Wire Wire Line
+	18150 7000 18150 7100
+Connection ~ 18150 7400
+$Comp
+L keyboard_parts:KEYSW K_DOWN1
+U 1 1 00000691
+P 19500 7000
+F 0 "K_DOWN1" H 19500 7233 60  0000 C CNN
+F 1 "KEYSW" H 19500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 19500 7000 60  0001 C CNN
+F 3 "" H 19500 7000 60  0000 C CNN
+	1    19500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_DOWN1
+U 1 1 00000690
+P 19150 7250
+F 0 "D_DOWN1" V 19196 7171 50  0000 R CNN
+F 1 "D" V 19095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 19150 7250 50  0001 C CNN
+F 3 "~" H 19150 7250 50  0001 C CNN
+	1    19150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19200 7000 19150 7000
+Wire Wire Line
+	19150 7000 19150 7100
+Connection ~ 19150 7400
+$Comp
+L keyboard_parts:KEYSW K_RIGHT1
+U 1 1 000006A1
+P 20500 7000
+F 0 "K_RIGHT1" H 20500 7233 60  0000 C CNN
+F 1 "KEYSW" H 20500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 20500 7000 60  0001 C CNN
+F 3 "" H 20500 7000 60  0000 C CNN
+	1    20500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_RIGHT1
+U 1 1 000006A0
+P 20150 7250
+F 0 "D_RIGHT1" V 20196 7171 50  0000 R CNN
+F 1 "D" V 20095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 20150 7250 50  0001 C CNN
+F 3 "~" H 20150 7250 50  0001 C CNN
+	1    20150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20200 7000 20150 7000
+Wire Wire Line
+	20150 7000 20150 7100
+Connection ~ 20150 7400
+$Comp
+L keyboard_parts:KEYSW K_INS1
+U 1 1 000006B1
+P 21500 7000
+F 0 "K_INS1" H 21500 7233 60  0000 C CNN
+F 1 "KEYSW" H 21500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP-2U" H 21500 7000 60  0001 C CNN
+F 3 "" H 21500 7000 60  0000 C CNN
+	1    21500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_INS1
+U 1 1 000006B0
+P 21150 7250
+F 0 "D_INS1" V 21196 7171 50  0000 R CNN
+F 1 "D" V 21095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 21150 7250 50  0001 C CNN
+F 3 "~" H 21150 7250 50  0001 C CNN
+	1    21150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21200 7000 21150 7000
+Wire Wire Line
+	21150 7000 21150 7100
+Connection ~ 21150 7400
+$Comp
+L keyboard_parts:KEYSW K_DEL1
+U 1 1 000006C1
+P 23500 7000
+F 0 "K_DEL1" H 23500 7233 60  0000 C CNN
+F 1 "KEYSW" H 23500 6900 60  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 23500 7000 60  0001 C CNN
+F 3 "" H 23500 7000 60  0000 C CNN
+	1    23500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_DEL1
+U 1 1 000006C0
+P 23150 7250
+F 0 "D_DEL1" V 23196 7171 50  0000 R CNN
+F 1 "D" V 23095 7171 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 23150 7250 50  0001 C CNN
+F 3 "~" H 23150 7250 50  0001 C CNN
+	1    23150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23200 7000 23150 7000
+Wire Wire Line
+	23150 7000 23150 7100
+Wire Wire Line
+	1150 7400 2150 7400
+Wire Wire Line
+	1800 7000 1800 6000
+Wire Wire Line
+	2800 7000 2800 3000
+Wire Wire Line
+	3800 6000 3800 5000
+Wire Wire Line
+	4800 7000 4800 5000
+Wire Wire Line
+	5800 7000 5800 6000
+Wire Wire Line
+	6800 6000 6800 5000
+Wire Wire Line
+	7800 6000 7800 5000
+Wire Wire Line
+	8800 6000 8800 5000
+Wire Wire Line
+	9800 7000 9800 6000
+Wire Wire Line
+	10800 6000 10800 5000
+Wire Wire Line
+	11800 6000 11800 5000
+Wire Wire Line
+	12800 7000 12800 6000
+Wire Wire Line
+	13800 6000 13800 5000
+Wire Wire Line
+	14800 7000 14800 6000
+Wire Wire Line
+	15800 7000 15800 6000
+Wire Wire Line
+	16800 7000 16800 5000
+Wire Wire Line
+	18800 7000 18800 4000
+Wire Wire Line
+	19800 7000 19800 6000
+Wire Wire Line
+	20800 7000 20800 4000
+Wire Wire Line
+	21800 7000 21800 6000
+Wire Wire Line
+	22800 6000 22800 5000
+Wire Wire Line
+	23800 7000 23800 6000
+Wire Wire Line
+	24800 6000 24800 4000
+Wire Wire Line
+	2150 1400 4150 1400
+Wire Wire Line
+	4150 1400 5150 1400
+Wire Wire Line
+	5150 1400 6150 1400
+Wire Wire Line
+	6150 1400 7150 1400
+Wire Wire Line
+	7150 1400 9150 1400
+Wire Wire Line
+	9150 1400 10150 1400
+Wire Wire Line
+	10150 1400 11150 1400
+Wire Wire Line
+	11150 1400 12150 1400
+Wire Wire Line
+	12150 1400 13150 1400
+Wire Wire Line
+	13150 1400 14150 1400
+Wire Wire Line
+	14150 1400 15150 1400
+Wire Wire Line
+	15150 1400 16150 1400
+Wire Wire Line
+	16150 1400 18150 1400
+Wire Wire Line
+	18150 1400 19150 1400
+Wire Wire Line
+	19150 1400 20150 1400
+Wire Wire Line
+	2800 3000 2800 1000
+Wire Wire Line
+	2150 3400 3150 3400
+Wire Wire Line
+	3150 3400 4150 3400
+Wire Wire Line
+	4800 3000 4800 1000
+Wire Wire Line
+	4150 3400 5150 3400
+Wire Wire Line
+	5800 3000 5800 1000
+Wire Wire Line
+	5150 3400 6150 3400
+Wire Wire Line
+	6800 3000 6800 1000
+Wire Wire Line
+	6150 3400 7150 3400
+Wire Wire Line
+	7800 3000 7800 1000
+Wire Wire Line
+	7150 3400 8150 3400
+Wire Wire Line
+	8150 3400 9150 3400
+Wire Wire Line
+	9800 3000 9800 1000
+Wire Wire Line
+	9150 3400 10150 3400
+Wire Wire Line
+	10800 3000 10800 1000
+Wire Wire Line
+	10150 3400 11150 3400
+Wire Wire Line
+	11800 3000 11800 1000
+Wire Wire Line
+	11150 3400 12150 3400
+Wire Wire Line
+	12800 3000 12800 1000
+Wire Wire Line
+	12150 3400 13150 3400
+Wire Wire Line
+	13800 3000 13800 1000
+Wire Wire Line
+	13150 3400 14150 3400
+Wire Wire Line
+	14800 3000 14800 1000
+Wire Wire Line
+	14150 3400 16150 3400
+Wire Wire Line
+	16800 3000 16800 1000
+Wire Wire Line
+	16150 3400 18150 3400
+Wire Wire Line
+	18800 3000 18800 1000
+Wire Wire Line
+	18150 3400 19150 3400
+Wire Wire Line
+	19800 3000 19800 1000
+Wire Wire Line
+	19150 3400 20150 3400
+Wire Wire Line
+	20800 3000 20800 1000
+Wire Wire Line
+	20150 3400 21150 3400
+Wire Wire Line
+	21150 3400 22150 3400
+Wire Wire Line
+	22150 3400 23150 3400
+Wire Wire Line
+	23150 3400 24150 3400
+Wire Wire Line
+	1800 4000 1800 3000
+Wire Wire Line
+	3800 4000 3800 3000
+Wire Wire Line
+	3150 4400 4150 4400
+Wire Wire Line
+	4800 4000 4800 3000
+Wire Wire Line
+	4150 4400 5150 4400
+Wire Wire Line
+	5800 4000 5800 3000
+Wire Wire Line
+	5150 4400 6150 4400
+Wire Wire Line
+	6800 4000 6800 3000
+Wire Wire Line
+	6150 4400 7150 4400
+Wire Wire Line
+	7800 4000 7800 3000
+Wire Wire Line
+	7150 4400 8150 4400
+Wire Wire Line
+	8800 4000 8800 3000
+Wire Wire Line
+	8150 4400 9150 4400
+Wire Wire Line
+	9800 4000 9800 3000
+Wire Wire Line
+	9150 4400 10150 4400
+Wire Wire Line
+	10800 4000 10800 3000
+Wire Wire Line
+	10150 4400 11150 4400
+Wire Wire Line
+	11800 4000 11800 3000
+Wire Wire Line
+	11150 4400 12150 4400
+Wire Wire Line
+	12800 4000 12800 3000
+Wire Wire Line
+	12150 4400 13150 4400
+Wire Wire Line
+	13800 4000 13800 3000
+Wire Wire Line
+	13150 4400 14150 4400
+Wire Wire Line
+	14800 4000 14800 3000
+Wire Wire Line
+	14150 4400 15150 4400
+Wire Wire Line
+	15800 4000 15800 1000
+Wire Wire Line
+	15150 4400 16150 4400
+Wire Wire Line
+	16800 4000 16800 3000
+Wire Wire Line
+	16150 4400 18150 4400
+Wire Wire Line
+	18800 4000 18800 3000
+Wire Wire Line
+	18150 4400 19150 4400
+Wire Wire Line
+	19800 4000 19800 3000
+Wire Wire Line
+	19150 4400 20150 4400
+Wire Wire Line
+	20800 4000 20800 3000
+Wire Wire Line
+	20150 4400 21150 4400
+Wire Wire Line
+	21800 4000 21800 3000
+Wire Wire Line
+	21150 4400 22150 4400
+Wire Wire Line
+	22800 4000 22800 3000
+Wire Wire Line
+	22150 4400 23150 4400
+Wire Wire Line
+	23800 4000 23800 3000
+Wire Wire Line
+	23150 4400 24150 4400
+Wire Wire Line
+	24800 4000 24800 3000
+Wire Wire Line
+	1800 5000 1800 4000
+Wire Wire Line
+	3800 5000 3800 4000
+Wire Wire Line
+	3150 5400 4150 5400
+Wire Wire Line
+	4800 5000 4800 4000
+Wire Wire Line
+	4150 5400 5150 5400
+Wire Wire Line
+	5800 5000 5800 4000
+Wire Wire Line
+	5150 5400 6150 5400
+Wire Wire Line
+	6800 5000 6800 4000
+Wire Wire Line
+	6150 5400 7150 5400
+Wire Wire Line
+	7800 5000 7800 4000
+Wire Wire Line
+	7150 5400 8150 5400
+Wire Wire Line
+	8800 5000 8800 4000
+Wire Wire Line
+	8150 5400 9150 5400
+Wire Wire Line
+	9800 5000 9800 4000
+Wire Wire Line
+	9150 5400 10150 5400
+Wire Wire Line
+	10800 5000 10800 4000
+Wire Wire Line
+	10150 5400 11150 5400
+Wire Wire Line
+	11800 5000 11800 4000
+Wire Wire Line
+	11150 5400 12150 5400
+Wire Wire Line
+	12800 5000 12800 4000
+Wire Wire Line
+	12150 5400 13150 5400
+Wire Wire Line
+	13800 5000 13800 4000
+Wire Wire Line
+	13150 5400 14150 5400
+Wire Wire Line
+	14800 5000 14800 4000
+Wire Wire Line
+	14150 5400 16150 5400
+Wire Wire Line
+	16800 5000 16800 4000
+Wire Wire Line
+	16150 5400 21150 5400
+Wire Wire Line
+	21800 5000 21800 4000
+Wire Wire Line
+	21150 5400 22150 5400
+Wire Wire Line
+	22800 5000 22800 4000
+Wire Wire Line
+	22150 5400 23150 5400
+Wire Wire Line
+	23800 5000 23800 4000
+Wire Wire Line
+	1800 6000 1800 5000
+Wire Wire Line
+	3150 6400 5150 6400
+Wire Wire Line
+	5800 6000 5800 5000
+Wire Wire Line
+	5150 6400 6150 6400
+Wire Wire Line
+	6150 6400 7150 6400
+Wire Wire Line
+	7150 6400 8150 6400
+Wire Wire Line
+	8150 6400 9150 6400
+Wire Wire Line
+	9800 6000 9800 5000
+Wire Wire Line
+	9150 6400 10150 6400
+Wire Wire Line
+	10150 6400 11150 6400
+Wire Wire Line
+	11150 6400 12150 6400
+Wire Wire Line
+	12800 6000 12800 5000
+Wire Wire Line
+	12150 6400 13150 6400
+Wire Wire Line
+	13150 6400 14150 6400
+Wire Wire Line
+	14800 6000 14800 5000
+Wire Wire Line
+	14150 6400 15150 6400
+Wire Wire Line
+	15800 6000 15800 4000
+Wire Wire Line
+	15150 6400 19150 6400
+Wire Wire Line
+	19800 6000 19800 4000
+Wire Wire Line
+	19150 6400 21150 6400
+Wire Wire Line
+	21800 6000 21800 5000
+Wire Wire Line
+	21150 6400 22150 6400
+Wire Wire Line
+	22150 6400 23150 6400
+Wire Wire Line
+	23800 6000 23800 5000
+Wire Wire Line
+	23150 6400 24150 6400
+Wire Wire Line
+	2150 7400 4150 7400
+Wire Wire Line
+	4150 7400 5150 7400
+Wire Wire Line
+	5150 7400 9150 7400
+Wire Wire Line
+	9150 7400 12150 7400
+Wire Wire Line
+	12150 7400 14150 7400
+Wire Wire Line
+	14150 7400 15150 7400
+Wire Wire Line
+	15150 7400 16150 7400
+Wire Wire Line
+	16150 7400 18150 7400
+Wire Wire Line
+	18150 7400 19150 7400
+Wire Wire Line
+	19150 7400 20150 7400
+Wire Wire Line
+	20150 7400 21150 7400
+Wire Wire Line
+	21150 7400 23150 7400
+Wire Wire Line
+	900  1400 2150 1400
+Wire Wire Line
+	1800 650  1800 3000
+Wire Wire Line
+	3800 650  3800 3000
+Wire Wire Line
+	8800 650  8800 3000
+Wire Wire Line
+	17800 -350 17800 1000
+Wire Wire Line
+	21800 650  21800 3000
+Wire Wire Line
+	22800 650  22800 3000
+Wire Wire Line
+	23800 650  23800 3000
+Wire Wire Line
+	24800 650  24800 3000
+Wire Wire Line
+	-350 2400 1150 2400
+$Comp
+L Power_Protection_esd:USBLC6-2SC6 U4
+U 1 1 5EB21503
+P 15200 8700
+F 0 "U4" H 15500 9200 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 15550 9100 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 14450 9100 50  0001 C CNN
+F 3 "" H 15400 9050 50  0001 C CNN
+	1    15200 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Type-C:HRO-TYPE-C-31-M-12 USB1
+U 1 1 5EB23643
+P 15400 10450
+F 0 "USB1" H 15233 11247 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 15233 11141 60  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12-HandSoldering" H 15400 10450 60  0001 C CNN
+F 3 "" H 15400 10450 60  0001 C CNN
+	1    15400 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:STM32F072-LQFP48-acheronSymbols U1
+U 1 1 5EB28F33
+P 10950 10750
+F 0 "U1" H 12744 10843 79  0000 L CNB
+F 1 "STM32F072-LQFP48" H 12744 10708 79  0000 L CNB
+F 2 "acheron_Components:LQFP-48_7x7mm_P0.5mm" H 10950 10750 50  0001 C CNN
+F 3 "" H 10950 10750 50  0001 C CNN
+	1    10950 10750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-3.3 U3
+U 1 1 5EB2CD41
+P 16050 15050
+F 0 "U3" H 16050 15292 50  0000 C CNN
+F 1 "AMS1117-3.3" H 16050 15201 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 16050 15250 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 16150 14800 50  0001 C CNN
+	1    16050 15050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse_Small FE1
+U 1 1 5EB2EAE0
+P 14950 15050
+F 0 "FE1" V 14745 15050 50  0000 C CNN
+F 1 "1.5A trip PTC" V 14836 15050 50  0000 C CNN
+F 2 "acheron_Components:Fuse_1812_4532" H 15000 14850 50  0001 L CNN
+F 3 "~" H 14950 15050 50  0001 C CNN
+	1    14950 15050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_TVS SMF1
+U 1 1 5EB32300
+P 15200 15200
+F 0 "SMF1" V 15150 14900 50  0000 L CNN
+F 1 "SMF9.0CA" V 15250 14800 50  0000 L CNN
+F 2 "acheron_Components:D_SOD-123" H 15200 15200 50  0001 C CNN
+F 3 "~" H 15200 15200 50  0001 C CNN
+	1    15200 15200
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:R R1
+U 1 1 5EB35D3B
+P 15550 15300
+F 0 "R1" H 15618 15346 50  0000 L CNN
+F 1 "100k" V 15550 15200 50  0000 L CNN
+F 2 "Keebio-Parts:R_0805" H 15550 15300 50  0001 C CNN
+F 3 "~" H 15550 15300 50  0001 C CNN
+	1    15550 15300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5EBD41DD
+P 15200 15350
+F 0 "#PWR0101" H 15200 15100 50  0001 C CNN
+F 1 "GND" H 15205 15177 50  0000 C CNN
+F 2 "" H 15200 15350 50  0001 C CNN
+F 3 "" H 15200 15350 50  0001 C CNN
+	1    15200 15350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5EBD4B50
+P 15550 15550
+F 0 "#PWR0102" H 15550 15300 50  0001 C CNN
+F 1 "GND" H 15555 15377 50  0000 C CNN
+F 2 "" H 15550 15550 50  0001 C CNN
+F 3 "" H 15550 15550 50  0001 C CNN
+	1    15550 15550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5EBD5150
+P 16050 15700
+F 0 "#PWR0103" H 16050 15450 50  0001 C CNN
+F 1 "GND" H 16055 15527 50  0000 C CNN
+F 2 "" H 16050 15700 50  0001 C CNN
+F 3 "" H 16050 15700 50  0001 C CNN
+	1    16050 15700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky DS1
+U 1 1 5EC09E97
+P 16050 14650
+F 0 "DS1" H 16050 14866 50  0000 C CNN
+F 1 "RB060M-60TR" H 16050 14775 50  0000 C CNN
+F 2 "acheron_Components:D_SOD-123" H 16050 14650 50  0001 C CNN
+F 3 "~" H 16050 14650 50  0001 C CNN
+	1    16050 14650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15750 15050 15750 14650
+Wire Wire Line
+	15750 14650 15900 14650
+Connection ~ 15750 15050
+Wire Wire Line
+	16200 14650 16350 14650
+Wire Wire Line
+	16350 14650 16350 15050
+Wire Wire Line
+	15750 15050 15750 15400
+Wire Wire Line
+	16350 15400 16350 15050
+Connection ~ 16350 15050
+$Comp
+L Device:C C2
+U 1 1 5ECE32C8
+P 16350 15550
+F 0 "C2" H 16465 15596 50  0000 L CNN
+F 1 "1u" H 16465 15505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 16388 15400 50  0001 C CNN
+F 3 "~" H 16350 15550 50  0001 C CNN
+	1    16350 15550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5ECE4B30
+P 15750 15550
+F 0 "C1" H 15865 15596 50  0000 L CNN
+F 1 "1U" H 15865 15505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 15788 15400 50  0001 C CNN
+F 3 "~" H 15750 15550 50  0001 C CNN
+	1    15750 15550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15750 15700 16050 15700
+Connection ~ 16050 15700
+Wire Wire Line
+	16050 15700 16350 15700
+Wire Wire Line
+	16050 15350 16050 15700
+Connection ~ 15550 15050
+Wire Wire Line
+	15550 15050 15750 15050
+Wire Wire Line
+	15050 15050 15200 15050
+Wire Wire Line
+	15200 15050 15550 15050
+Connection ~ 15200 15050
+Wire Wire Line
+	14850 15050 14750 15050
+Wire Wire Line
+	16350 15050 16650 15050
+Text GLabel 16650 15050 2    50   Input ~ 0
+3.3V
+Text GLabel 14750 15050 0    50   Input ~ 0
+VUSB
+Text GLabel 15550 14950 1    50   Input ~ 0
+5V
+Wire Wire Line
+	15550 15050 15550 14950
+Wire Notes Line
+	14500 14250 14500 15950
+Wire Notes Line
+	14500 15950 16900 15950
+Wire Notes Line
+	16900 15950 16900 14250
+Wire Notes Line
+	16900 14250 14500 14250
+Wire Wire Line
+	15500 10400 15700 10400
+Wire Wire Line
+	15700 10600 15500 10600
+Wire Wire Line
+	15500 10300 15600 10300
+Wire Wire Line
+	15600 10300 15600 10500
+Wire Wire Line
+	15600 10500 15500 10500
+Wire Wire Line
+	15600 10300 15850 10300
+Connection ~ 15600 10300
+Wire Wire Line
+	15700 10400 15700 10500
+Wire Wire Line
+	15900 10500 15700 10500
+Connection ~ 15700 10500
+Wire Wire Line
+	15700 10500 15700 10600
+Text GLabel 15850 10300 2    50   Input ~ 0
+DBus-
+Text GLabel 15900 10500 2    50   Input ~ 0
+DBus+
+Text GLabel 16000 10000 2    50   Input ~ 0
+VUSB
+Wire Wire Line
+	15500 10900 15750 10900
+Wire Wire Line
+	15750 10900 15750 10000
+Wire Wire Line
+	15500 10000 15750 10000
+Wire Wire Line
+	15750 10000 16000 10000
+Connection ~ 15750 10000
+NoConn ~ 15500 10100
+NoConn ~ 15500 10700
+Wire Wire Line
+	15500 10800 15850 10800
+Wire Wire Line
+	15500 10200 15800 10200
+Wire Wire Line
+	15800 10200 15800 10150
+Wire Wire Line
+	15800 10150 15850 10150
+$Comp
+L power:GND #PWR0104
+U 1 1 5EC94C9A
+P 15500 11000
+F 0 "#PWR0104" H 15500 10750 50  0001 C CNN
+F 1 "GND" V 15505 10872 50  0000 R CNN
+F 2 "" H 15500 11000 50  0001 C CNN
+F 3 "" H 15500 11000 50  0001 C CNN
+	1    15500 11000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5EC95E2B
+P 15500 9900
+F 0 "#PWR0105" H 15500 9650 50  0001 C CNN
+F 1 "GND" V 15505 9772 50  0000 R CNN
+F 2 "" H 15500 9900 50  0001 C CNN
+F 3 "" H 15500 9900 50  0001 C CNN
+	1    15500 9900
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 15500 11100
+Text GLabel 15200 8200 1    50   Input ~ 0
+VUSB
+Text GLabel 14700 8800 0    50   Input ~ 0
+DBus-
+Text GLabel 15700 8800 2    50   Input ~ 0
+DBus+
+Text GLabel 15700 8600 2    50   Input ~ 0
+D+
+Text GLabel 14700 8600 0    50   Input ~ 0
+D-
+$Comp
+L power:GND #PWR0106
+U 1 1 5ECD575B
+P 15200 9200
+F 0 "#PWR0106" H 15200 8950 50  0001 C CNN
+F 1 "GND" H 15205 9027 50  0000 C CNN
+F 2 "" H 15200 9200 50  0001 C CNN
+F 3 "" H 15200 9200 50  0001 C CNN
+	1    15200 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5ED10F2C
+P 15950 10150
+F 0 "R2" V 15900 10150 50  0000 C CNN
+F 1 "5.1k" V 16000 10150 50  0000 C CNN
+F 2 "Keebio-Parts:R_0805" H 15950 10150 50  0001 C CNN
+F 3 "~" H 15950 10150 50  0001 C CNN
+	1    15950 10150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5ED13084
+P 15950 10800
+F 0 "R3" V 15900 10800 50  0000 C CNN
+F 1 "5.1k" V 16000 10800 50  0000 C CNN
+F 2 "Keebio-Parts:R_0805" H 15950 10800 50  0001 C CNN
+F 3 "~" H 15950 10800 50  0001 C CNN
+	1    15950 10800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5ED13F66
+P 16050 10800
+F 0 "#PWR0107" H 16050 10550 50  0001 C CNN
+F 1 "GND" V 16055 10672 50  0000 R CNN
+F 2 "" H 16050 10800 50  0001 C CNN
+F 3 "" H 16050 10800 50  0001 C CNN
+	1    16050 10800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5ED146BE
+P 16050 10150
+F 0 "#PWR0108" H 16050 9900 50  0001 C CNN
+F 1 "GND" V 16055 10022 50  0000 R CNN
+F 2 "" H 16050 10150 50  0001 C CNN
+F 3 "" H 16050 10150 50  0001 C CNN
+	1    16050 10150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 5ED1A559
+P 13150 9500
+F 0 "C10" H 13058 9454 50  0000 R CNN
+F 1 "4.7uF" H 13150 9600 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13150 9500 50  0001 C CNN
+F 3 "~" H 13150 9500 50  0001 C CNN
+	1    13150 9500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5ED1A876
+P 8850 11250
+F 0 "C3" H 8850 11200 50  0000 R CNN
+F 1 "1uf" H 9050 11250 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8850 11250 50  0001 C CNN
+F 3 "~" H 8850 11250 50  0001 C CNN
+	1    8850 11250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 5ED1AF6F
+P 12250 12850
+F 0 "C8" V 12150 12850 50  0000 C CNN
+F 1 "4.7uF" V 12350 12800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12250 12850 50  0001 C CNN
+F 3 "~" H 12250 12850 50  0001 C CNN
+	1    12250 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 9350 9150 9350
+Wire Wire Line
+	9150 9350 9150 9200
+Wire Wire Line
+	9150 9350 9050 9350
+Connection ~ 9150 9350
+Text GLabel 9050 9350 0    50   Input ~ 0
+3.3V
+$Comp
+L Device:C_Small C5
+U 1 1 5ED93225
+P 9150 9100
+F 0 "C5" H 9350 9000 50  0000 R CNN
+F 1 "100nF" H 9450 9100 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9150 9100 50  0001 C CNN
+F 3 "~" H 9150 9100 50  0001 C CNN
+	1    9150 9100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9850 9000 9850 8850
+Wire Wire Line
+	9600 9000 9600 8850
+$Comp
+L Device:C_Small C6
+U 1 1 5EE0B362
+P 9700 8850
+F 0 "C6" V 9600 8850 50  0000 C CNN
+F 1 "100nF" V 9800 8900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9700 8850 50  0001 C CNN
+F 3 "~" H 9700 8850 50  0001 C CNN
+	1    9700 8850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9800 8850 9850 8850
+Wire Wire Line
+	9600 8850 9600 8750
+Connection ~ 9600 8850
+Wire Wire Line
+	9850 8850 9850 8750
+Connection ~ 9850 8850
+Wire Wire Line
+	12700 9400 12850 9400
+Wire Wire Line
+	12700 9650 12850 9650
+$Comp
+L Device:C_Small C9
+U 1 1 5EF3BDB0
+P 12850 9500
+F 0 "C9" H 12758 9454 50  0000 R CNN
+F 1 "100nF" H 12850 9600 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12850 9500 50  0001 C CNN
+F 3 "~" H 12850 9500 50  0001 C CNN
+	1    12850 9500
+	-1   0    0    1   
+$EndComp
+Connection ~ 12850 9400
+Wire Wire Line
+	12850 9400 13150 9400
+Connection ~ 13150 9400
+Wire Wire Line
+	13150 9400 13300 9400
+Wire Wire Line
+	13150 9650 13150 9600
+Connection ~ 13150 9650
+Wire Wire Line
+	13150 9650 13300 9650
+Wire Wire Line
+	12850 9600 12850 9650
+Connection ~ 12850 9650
+Wire Wire Line
+	12850 9650 13150 9650
+Text GLabel 13300 9400 2    50   Input ~ 0
+3.3V
+$Comp
+L power:GND #PWR0109
+U 1 1 5EFBA946
+P 13300 9650
+F 0 "#PWR0109" H 13300 9400 50  0001 C CNN
+F 1 "GND" V 13305 9522 50  0000 R CNN
+F 2 "" H 13300 9650 50  0001 C CNN
+F 3 "" H 13300 9650 50  0001 C CNN
+	1    13300 9650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5EFBB44D
+P 9150 9000
+F 0 "#PWR0110" H 9150 8750 50  0001 C CNN
+F 1 "GND" H 9155 8827 50  0000 C CNN
+F 2 "" H 9150 9000 50  0001 C CNN
+F 3 "" H 9150 9000 50  0001 C CNN
+	1    9150 9000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5EFBC7B8
+P 9850 8750
+F 0 "#PWR0111" H 9850 8500 50  0001 C CNN
+F 1 "GND" H 9855 8577 50  0000 C CNN
+F 2 "" H 9850 8750 50  0001 C CNN
+F 3 "" H 9850 8750 50  0001 C CNN
+	1    9850 8750
+	-1   0    0    1   
+$EndComp
+Text GLabel 9600 8750 1    50   Input ~ 0
+3.3V
+Wire Wire Line
+	9250 11100 9050 11100
+Wire Wire Line
+	9250 11350 9050 11350
+$Comp
+L Device:C_Small C4
+U 1 1 5F0C2C29
+P 9050 11200
+F 0 "C4" H 8958 11154 50  0000 R CNN
+F 1 "10nF" H 8958 11245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9050 11200 50  0001 C CNN
+F 3 "~" H 9050 11200 50  0001 C CNN
+	1    9050 11200
+	-1   0    0    1   
+$EndComp
+Connection ~ 9050 11100
+Wire Wire Line
+	9050 11100 8850 11100
+Connection ~ 8850 11350
+Wire Wire Line
+	8850 11350 8750 11350
+Text GLabel 8750 11350 0    50   Input ~ 0
+3.3V
+$Comp
+L power:GND #PWR0112
+U 1 1 5F0C3AD9
+P 8750 11100
+F 0 "#PWR0112" H 8750 10850 50  0001 C CNN
+F 1 "GND" V 8755 10972 50  0000 R CNN
+F 2 "" H 8750 11100 50  0001 C CNN
+F 3 "" H 8750 11100 50  0001 C CNN
+	1    8750 11100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8850 11150 8850 11100
+Connection ~ 8850 11100
+Wire Wire Line
+	8850 11100 8750 11100
+Wire Wire Line
+	9050 11300 9050 11350
+Connection ~ 9050 11350
+Wire Wire Line
+	9050 11350 8850 11350
+Wire Wire Line
+	12100 12450 12100 12550
+Wire Wire Line
+	12350 12450 12350 12550
+$Comp
+L Device:C_Small C7
+U 1 1 5F20BDEB
+P 12200 12550
+F 0 "C7" V 12100 12550 50  0000 C CNN
+F 1 "100nF" V 12300 12600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12200 12550 50  0001 C CNN
+F 3 "~" H 12200 12550 50  0001 C CNN
+	1    12200 12550
+	0    1    1    0   
+$EndComp
+Connection ~ 12100 12550
+Wire Wire Line
+	12100 12550 12100 12850
+Connection ~ 12350 12850
+Wire Wire Line
+	12350 12850 12350 13000
+Wire Wire Line
+	12300 12550 12350 12550
+Connection ~ 12350 12550
+Wire Wire Line
+	12350 12550 12350 12850
+Wire Wire Line
+	12100 12850 12150 12850
+Connection ~ 12100 12850
+Wire Wire Line
+	12100 12850 12100 13000
+$Comp
+L power:GND #PWR0113
+U 1 1 5F2913BD
+P 12100 13000
+F 0 "#PWR0113" H 12100 12750 50  0001 C CNN
+F 1 "GND" H 12105 12827 50  0000 C CNN
+F 2 "" H 12100 13000 50  0001 C CNN
+F 3 "" H 12100 13000 50  0001 C CNN
+	1    12100 13000
+	1    0    0    -1  
+$EndComp
+Text GLabel 12350 13000 3    50   Input ~ 0
+3.3V
+Text GLabel 12700 10150 2    50   Input ~ 0
+D+
+Text GLabel 12700 10400 2    50   Input ~ 0
+D-
+$EndSCHEMATC
